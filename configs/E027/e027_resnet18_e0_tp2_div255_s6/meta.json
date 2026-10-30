@@ -1,0 +1,14 @@
+{
+  "run_name": "e027_resnet18_e0_tp2_div255",
+  "model_type": "resnet18_e0",
+  "seed": 6,
+  "epochs": 60,
+  "best_from": 20,
+  "elapsed_sec": 1167.4,
+  "metric": 0.9485740845070423,
+  "epoch": 20,
+  "val_aucs": {
+    "clean": 0.9976465727699532,
+    "degraded": 0.8995015962441313
+  }
+}

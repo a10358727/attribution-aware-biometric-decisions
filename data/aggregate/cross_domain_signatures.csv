@@ -1,0 +1,13 @@
+domain,anchor,pool,detector,protocol,operator,dt_legacy,dt_fixed,db_legacy,db_fixed,source
+Fingerprint,degraded,controlled_88x88,ResNet-50 ImageNet,P1,bilateral,0.180979,0.091102,0.14718599999999998,0.092498,E042_same_instrument_table.json:E035
+Fingerprint,degraded,controlled_88x88,ResNet-50 ImageNet,P1,TV,0.11970800000000001,0.033083,0.100301,0.050151,E042_same_instrument_table.json:E035
+Fingerprint,degraded,controlled_88x88,ResNet-50 ImageNet,P2,bilateral,0.128355,0.024145000000000007,0.109739,0.044041000000000004,E042_same_instrument_table.json:E035
+Fingerprint,degraded,controlled_88x88,ResNet-50 ImageNet,P2,TV,0.11422999999999998,-0.005729000000000001,0.10411299999999998,0.031334999999999995,E042_same_instrument_table.json:E035
+OpenForensics,clean_face_crop,photo_disjoint,NPR residual,,bilateral,-0.6509397417503586,-0.6138199426111909,-0.0031074137509175433,-0.002989968191827747,E042_same_instrument_table.json:E040
+OpenForensics,clean_face_crop,photo_disjoint,NPR residual,,TV,-0.9636549497847919,-0.9556994261119082,-0.003102520185955468,-0.0034744311230731585,E042_same_instrument_table.json:E040
+OpenForensics,clean_face_crop,photo_disjoint,ResNet-50 ImageNet,,bilateral,-0.19991750358680058,-0.22774748923959826,-0.0023489111817959385,-0.002593589429899682,E042_same_instrument_table.json:E040
+OpenForensics,clean_face_crop,photo_disjoint,ResNet-50 ImageNet,,TV,-0.8709325681492108,-0.9049210903873746,-0.0030389038414484954,-0.003396134083679961,E042_same_instrument_table.json:E040
+AI-Face,clean_face_crop,seen_generators,NPR residual,,bilateral,-0.1277582862096009,-0.1110414000908078,0.5235833333333333,0.5463833333333333,E042_same_instrument_table.json:E041
+AI-Face,clean_face_crop,seen_generators,NPR residual,,TV,-0.0783134519337929,-0.0540595203698353,0.6484833333333333,0.6858000000000001,E042_same_instrument_table.json:E041
+AI-Face,clean_face_crop,seen_generators,Xception ImageNet,,bilateral,-0.12896768068683698,-0.11587485037355023,0.15241666666666664,0.18688333333333335,E042_same_instrument_table.json:E041
+AI-Face,clean_face_crop,seen_generators,Xception ImageNet,,TV,-0.12378750980311222,-0.09630990217525902,0.3343999999999999,0.39638333333333337,E042_same_instrument_table.json:E041

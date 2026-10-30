@@ -1,0 +1,49 @@
+run_name: e027_bcesupcon_tp2_div255
+data:
+  manifest: data/track_a/p2/manifest.csv
+  clean_dir: data/track_a/p2/clean
+  eval_conditions:
+  - clean
+  - degraded
+  track: A
+  clean_views: false
+  asym_degrade: false
+  val_group: dev
+  norm: div255
+model:
+  encoder: resencoder
+  proj_dim: 128
+  severity_loss: coral
+  use_zdeg: true
+  type: bcesupcon
+  supcon_w: 0.5
+  temperature: 0.1
+loss:
+  lambda_auth: 1.0
+  lambda_authcon: 0.5
+  lambda_deg: 1.0
+  lambda_degcon: 0.5
+  lambda_inv: 1.0
+  lambda_adv: 0.1
+  lambda_cosdis: 0.0
+  supcon_temperature: 0.1
+  grl_warmup_epoch: 5
+train:
+  epochs: 60
+  best_from: 20
+  batch_size: 128
+  lr: 0.001
+  weight_decay: 0.0001
+  num_workers: 8
+restorer:
+  lambda_pres: 1.0
+  w_mse: 1.0
+  w_ssim: 0.5
+  ch: 48
+  epochs: 40
+  batch_size: 64
+  lr: 0.0002
+  weight_decay: 0.0001
+_seed: 8
+_created: '2026-09-20T07:19:40'
+_manifest_sha256: 5601f5f31c36682a8ebd667c2ffd825212cdf1c169e8cdf080785fb8ce8f6ee6

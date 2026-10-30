@@ -1,0 +1,11 @@
+{
+ "checked": 1280,
+ "failures": [],
+ "max_abs_deviation": {
+  "d_tdr_locked": 5.0000000000050004e-06,
+  "d_rejection": 4.972776769501808e-06,
+  "d_auc": 4.994454527090797e-06,
+  "thr_locked": 4.966049194088384e-07
+ },
+ "pass": true
+}

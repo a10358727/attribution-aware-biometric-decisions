@@ -1,0 +1,14 @@
+{
+  "run_name": "e027_bcesupcon_tp2_div255",
+  "model_type": "bcesupcon",
+  "seed": 0,
+  "epochs": 60,
+  "best_from": 20,
+  "elapsed_sec": 1182.6,
+  "metric": 0.919393896713615,
+  "epoch": 27,
+  "val_aucs": {
+    "clean": 0.9888837558685446,
+    "degraded": 0.8499040375586854
+  }
+}

@@ -1,0 +1,28 @@
+{
+ "pilot_not_evidence": false,
+ "outcome": "P-A",
+ "H1_supported": true,
+ "H2_supported": true,
+ "H4_supported": {
+  "leg": true,
+  "fix": true
+ },
+ "H3_class": {
+  "pi2|leg": "indistinguishable",
+  "pi2|fix": "indistinguishable",
+  "pi3|leg": "indistinguishable",
+  "pi3|fix": "indistinguishable"
+ },
+ "ineligible_cells": {
+  "leg": 0,
+  "fix": 0
+ },
+ "c_star": {
+  "c_A": 1.0,
+  "c_U": 0.2,
+  "c_T": 0.02,
+  "q": 0.9,
+  "K": 3
+ },
+ "decision_level": 0.9875
+}

@@ -1,0 +1,14 @@
+{
+  "run_name": "bl_bcesupcon_tp2",
+  "model_type": "bcesupcon",
+  "seed": 7,
+  "epochs": 60,
+  "best_from": 20,
+  "elapsed_sec": 1172.0,
+  "metric": 0.9508030046948357,
+  "epoch": 23,
+  "val_aucs": {
+    "clean": 0.9874565258215962,
+    "degraded": 0.9141494835680751
+  }
+}

@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+figures/output/
+# Never any weights, image data, manifests or per-image scores.
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.png
+*.bmp
+*.jpg
+*.jpeg
+*.npz
+*.npy
+manifest*.csv

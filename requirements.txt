@@ -1,0 +1,9 @@
+# Tested with Python 3.12 (versions below are those of the authors' environment).
+numpy>=1.26          # tested 2.2.6
+scipy>=1.11          # tested 1.16.3
+scikit-image>=0.22   # tested 0.25.2
+opencv-python-headless>=4.8   # tested 4.12.0
+matplotlib>=3.8      # tested 3.11.2  (figures only; the paper's figure files were produced with 3.10.6)
+torch>=2.2           # tested 2.9.1   (inference only)
+torchvision>=0.17    # tested 0.24.1  (inference only)
+pytest>=7              # tests only (decision_level/tests)

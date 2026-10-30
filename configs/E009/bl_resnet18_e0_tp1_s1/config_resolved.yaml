@@ -1,0 +1,46 @@
+run_name: bl_resnet18_e0_tp1
+data:
+  manifest: data_tracka_p1/manifest.csv
+  clean_dir: data_tracka_p1/clean
+  eval_conditions:
+  - clean
+  - degraded
+  track: A
+  clean_views: false
+  asym_degrade: false
+  val_group: dev
+model:
+  encoder: resencoder
+  proj_dim: 128
+  severity_loss: coral
+  use_zdeg: true
+  type: resnet18_e0
+loss:
+  lambda_auth: 1.0
+  lambda_authcon: 0.5
+  lambda_deg: 1.0
+  lambda_degcon: 0.5
+  lambda_inv: 1.0
+  lambda_adv: 0.1
+  lambda_cosdis: 0.0
+  supcon_temperature: 0.1
+  grl_warmup_epoch: 5
+train:
+  epochs: 60
+  best_from: 20
+  batch_size: 128
+  lr: 0.001
+  weight_decay: 0.0001
+  num_workers: 8
+restorer:
+  lambda_pres: 1.0
+  w_mse: 1.0
+  w_ssim: 0.5
+  ch: 48
+  epochs: 40
+  batch_size: 64
+  lr: 0.0002
+  weight_decay: 0.0001
+_seed: 1
+_created: '2026-09-14T10:45:26'
+_manifest_sha256: 8325f32c8c134f9f827a2851448e55008052b6735fa0826d116c54a8b4eb02fd

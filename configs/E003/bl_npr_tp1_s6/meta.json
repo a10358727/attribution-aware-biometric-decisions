@@ -1,0 +1,14 @@
+{
+  "run_name": "bl_npr_tp1",
+  "model_type": "npr",
+  "seed": 6,
+  "epochs": 60,
+  "best_from": 20,
+  "elapsed_sec": 378.5,
+  "metric": 0.7752039436619718,
+  "epoch": 20,
+  "val_aucs": {
+    "clean": 0.8033896713615023,
+    "degraded": 0.7470182159624413
+  }
+}

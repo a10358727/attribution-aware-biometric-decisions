@@ -1,0 +1,14 @@
+{
+  "run_name": "bl_resnet18_e0_tp1",
+  "model_type": "resnet18_e0",
+  "seed": 7,
+  "epochs": 60,
+  "best_from": 20,
+  "elapsed_sec": 1398.6,
+  "metric": 0.8652384976525822,
+  "epoch": 21,
+  "val_aucs": {
+    "clean": 0.8957323943661972,
+    "degraded": 0.8347446009389672
+  }
+}

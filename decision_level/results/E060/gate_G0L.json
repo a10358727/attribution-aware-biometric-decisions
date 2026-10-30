@@ -1,0 +1,141 @@
+{
+ "disagreements": [
+  {
+   "det": "Rn",
+   "p": "p1",
+   "arm": "leg",
+   "seed": 1,
+   "cond": "degraded",
+   "n_disagree": 4
+  },
+  {
+   "det": "Rn",
+   "p": "p1",
+   "arm": "leg",
+   "seed": 1,
+   "cond": "restored_bilateral",
+   "n_disagree": 16
+  },
+  {
+   "det": "Rn",
+   "p": "p1",
+   "arm": "leg",
+   "seed": 1,
+   "cond": "restored_tv",
+   "n_disagree": 12
+  },
+  {
+   "det": "Rn",
+   "p": "p1",
+   "arm": "leg",
+   "seed": 4,
+   "cond": "degraded",
+   "n_disagree": 16
+  },
+  {
+   "det": "Rn",
+   "p": "p1",
+   "arm": "leg",
+   "seed": 4,
+   "cond": "restored_bilateral",
+   "n_disagree": 151
+  },
+  {
+   "det": "Rn",
+   "p": "p1",
+   "arm": "leg",
+   "seed": 4,
+   "cond": "restored_tv",
+   "n_disagree": 118
+  },
+  {
+   "det": "Rn",
+   "p": "p1",
+   "arm": "leg",
+   "seed": 5,
+   "cond": "restored_bilateral",
+   "n_disagree": 1
+  },
+  {
+   "det": "Rn",
+   "p": "p1",
+   "arm": "fix",
+   "seed": 0,
+   "cond": "restored_bilateral",
+   "n_disagree": 1
+  },
+  {
+   "det": "Rn",
+   "p": "p1",
+   "arm": "fix",
+   "seed": 5,
+   "cond": "restored_bilateral",
+   "n_disagree": 1
+  },
+  {
+   "det": "Rn",
+   "p": "p1",
+   "arm": "fix",
+   "seed": 7,
+   "cond": "restored_bilateral",
+   "n_disagree": 2
+  },
+  {
+   "det": "Rn",
+   "p": "p1",
+   "arm": "fix",
+   "seed": 7,
+   "cond": "restored_tv",
+   "n_disagree": 1
+  },
+  {
+   "det": "Bs",
+   "p": "p1",
+   "arm": "leg",
+   "seed": 3,
+   "cond": "restored_bilateral",
+   "n_disagree": 1
+  },
+  {
+   "det": "Bs",
+   "p": "p1",
+   "arm": "fix",
+   "seed": 2,
+   "cond": "restored_tv",
+   "n_disagree": 2
+  },
+  {
+   "det": "Bs",
+   "p": "p1",
+   "arm": "fix",
+   "seed": 4,
+   "cond": "restored_bilateral",
+   "n_disagree": 1
+  },
+  {
+   "det": "Bs",
+   "p": "p1",
+   "arm": "fix",
+   "seed": 5,
+   "cond": "degraded",
+   "n_disagree": 1
+  },
+  {
+   "det": "Bs",
+   "p": "p1",
+   "arm": "fix",
+   "seed": 5,
+   "cond": "restored_tv",
+   "n_disagree": 1
+  },
+  {
+   "det": "Bs",
+   "p": "p2",
+   "arm": "leg",
+   "seed": 5,
+   "cond": "restored_tv",
+   "n_disagree": 1
+  }
+ ],
+ "n": 17
+}

@@ -1,0 +1,14 @@
+{
+  "run_name": "e027_npr_tp2_div255",
+  "model_type": "npr",
+  "seed": 9,
+  "epochs": 60,
+  "best_from": 20,
+  "elapsed_sec": 315.0,
+  "metric": 0.8712324882629108,
+  "epoch": 38,
+  "val_aucs": {
+    "clean": 0.9112334272300469,
+    "degraded": 0.8312315492957747
+  }
+}

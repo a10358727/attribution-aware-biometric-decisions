@@ -1,0 +1,14 @@
+{
+  "run_name": "e027_d3_84_tp2_minmax",
+  "model_type": "d3_84",
+  "seed": 3,
+  "epochs": 60,
+  "best_from": 20,
+  "elapsed_sec": 2121.7,
+  "metric": 0.9312475117370892,
+  "epoch": 30,
+  "val_aucs": {
+    "clean": 0.9713348356807512,
+    "degraded": 0.8911601877934272
+  }
+}

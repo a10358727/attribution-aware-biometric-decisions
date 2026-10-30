@@ -1,0 +1,14 @@
+{
+  "run_name": "e027_d3_84_tp2_div255",
+  "model_type": "d3_84",
+  "seed": 0,
+  "epochs": 60,
+  "best_from": 20,
+  "elapsed_sec": 2148.5,
+  "metric": 0.8895250704225353,
+  "epoch": 36,
+  "val_aucs": {
+    "clean": 0.942733896713615,
+    "degraded": 0.8363162441314556
+  }
+}

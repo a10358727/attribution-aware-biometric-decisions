@@ -1,0 +1,14 @@
+{
+  "run_name": "e027_npr_tp2_minmax",
+  "model_type": "npr",
+  "seed": 4,
+  "epochs": 60,
+  "best_from": 20,
+  "elapsed_sec": 322.2,
+  "metric": 0.8828061971830986,
+  "epoch": 34,
+  "val_aucs": {
+    "clean": 0.9283688262910799,
+    "degraded": 0.8372435680751174
+  }
+}

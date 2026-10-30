@@ -1,0 +1,37 @@
+{
+ "per_protocol": {
+  "p1": {
+   "n_real": 1653,
+   "n_cred": 309,
+   "n_subj": 34,
+   "n_syn": 4800,
+   "syn_by_gen": {
+    "dcgan": 1200,
+    "progan": 1200,
+    "stylegan2ada": 1200,
+    "stylegan3": 1200
+   },
+   "n_val_real": 1775,
+   "val_dev_n": 1500
+  },
+  "p2": {
+   "n_real": 1653,
+   "n_cred": 309,
+   "n_subj": 34,
+   "n_syn": 4800,
+   "syn_by_gen": {
+    "adm": 1200,
+    "dcgan": 1200,
+    "stylegan2ada": 1200,
+    "stylegan3": 1200
+   },
+   "n_val_real": 1775,
+   "val_dev_n": 1500
+  }
+ },
+ "counts_ok": true,
+ "p1_equals_p2_real": true,
+ "manifest_mismatches": 0,
+ "val_subjects_in_manifest": 20,
+ "pass": true
+}
