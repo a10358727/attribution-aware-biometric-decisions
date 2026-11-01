@@ -1,0 +1,20 @@
+# Synthetic tests, aggregate-only reproduction and the privacy gate. Downloads no data of any kind.
+name: ci
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python scripts/privacy_check.py
+      - run: python scripts/verify_frozen_sources.py
+      - run: python -m pytest -q decision_level/tests
+      - run: python scripts/table1_from_aggregates.py
+      - run: python decision_level/scripts/headline_from_aggregates.py
+      - run: python decision_level/scripts/e062_tables_from_aggregates.py
+      - run: python decision_level/examples/e062_synthetic_demo.py
+      - run: python examples/synthetic_demo.py

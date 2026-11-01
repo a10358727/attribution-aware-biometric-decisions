@@ -1,0 +1,33 @@
+{
+ "annotation": "post-freeze reporting annotation, not part of the frozen E060 aggregates",
+ "date": "2026-11-02",
+ "method": "n_f per credential from the frozen E060 units (load_pool meta); M1 eligibility n_f >= K as in tcss_lib.core.without_replacement",
+ "keys_read": [
+  "test_identity",
+  "test_patch_id",
+  "test_source",
+  "test_y",
+  "val_patch_id",
+  "val_score",
+  "val_source",
+  "val_y"
+ ],
+ "protocols": {
+  "p1": {
+   "credentials": 309,
+   "captures": 1653,
+   "excluded_K3": 60,
+   "excluded_K3_captures": 88,
+   "excluded_K5": 117,
+   "excluded_K5_captures": 292
+  },
+  "p2": {
+   "credentials": 309,
+   "captures": 1653,
+   "excluded_K3": 60,
+   "excluded_K3_captures": 88,
+   "excluded_K5": 117,
+   "excluded_K5_captures": 292
+  }
+ }
+}

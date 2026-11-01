@@ -1,0 +1,266 @@
+{
+ "meta": {
+  "labels_csv_sha256": "693d7bab2f3b37c1791a178eb07fd781b0dadbc9d14d4d4409bb16ea9fc57436",
+  "manifest_p1_sha256": "474cac5f7b1720e0b9be313173a4c1afc53e0749ecf390fd029c2e5bf0e298d3",
+  "test_list_sha256": "7e73deba633c6f935476f0bd8b759b63502850215c3d3267f07d403b38485004",
+  "ra_analysis_sha256": "61abab5ef22d48abf0a4a980f884fce680948285eb0340c78e7eb6cc4d3c9ad2",
+  "ra_prefreeze_sha256": "ba3e1d4bbad431fe049103607f493d21ce58db104915cbd5de0444d012e97104",
+  "note": "metadata skeleton + synthetic outcomes; no detector output read",
+  "B_override": null
+ },
+ "generator": {
+  "standard": {
+   "t": 2.0,
+   "s": 0.8
+  },
+  "low_rate": {
+   "t": 2.6,
+   "s": 0.5
+  }
+ },
+ "results": {
+  "L1_levels_null_plasmode_standard": {
+   "spec": {
+    "name": "L1_levels_null_plasmode_standard",
+    "design": "plasmode",
+    "rate": "standard",
+    "n": 1000,
+    "B": 4000,
+    "gen_seed": 101,
+    "levels": [
+     0.9875,
+     0.99,
+     0.995,
+     0.9975
+    ],
+    "fixed_B": true
+   },
+   "n": 1000,
+   "level_error": {
+    "per_contrast": {
+     "0.9875": {
+      "theta_dry|leg": 0.023,
+      "theta_wet|leg": 0.024,
+      "theta_dry|fix": 0.025,
+      "theta_wet|fix": 0.023
+     },
+     "0.99": {
+      "theta_dry|leg": 0.021,
+      "theta_wet|leg": 0.021,
+      "theta_dry|fix": 0.022,
+      "theta_wet|fix": 0.022
+     },
+     "0.995": {
+      "theta_dry|leg": 0.015,
+      "theta_wet|leg": 0.013,
+      "theta_dry|fix": 0.014,
+      "theta_wet|fix": 0.012
+     },
+     "0.9975": {
+      "theta_dry|leg": 0.01,
+      "theta_wet|leg": 0.009,
+      "theta_dry|fix": 0.012,
+      "theta_wet|fix": 0.009
+     }
+    },
+    "familywise": {
+     "0.9875": {
+      "fwer": 0.052,
+      "wilson95": [
+       0.0399,
+       0.0676
+      ],
+      "per_contrast_mean": 0.0238
+     },
+     "0.99": {
+      "fwer": 0.048,
+      "wilson95": [
+       0.0364,
+       0.0631
+      ],
+      "per_contrast_mean": 0.0215
+     },
+     "0.995": {
+      "fwer": 0.032,
+      "wilson95": [
+       0.0228,
+       0.0448
+      ],
+      "per_contrast_mean": 0.0135
+     },
+     "0.9975": {
+      "fwer": 0.023,
+      "wilson95": [
+       0.0154,
+       0.0343
+      ],
+      "per_contrast_mean": 0.01
+     }
+    }
+   },
+   "seconds": 1266.4
+  },
+  "L2_levels_null_plasmode_low_rate": {
+   "spec": {
+    "name": "L2_levels_null_plasmode_low_rate",
+    "design": "plasmode",
+    "rate": "low_rate",
+    "n": 500,
+    "B": 4000,
+    "gen_seed": 102,
+    "levels": [
+     0.9875,
+     0.99,
+     0.995,
+     0.9975
+    ],
+    "fixed_B": true
+   },
+   "n": 500,
+   "level_error": {
+    "per_contrast": {
+     "0.9875": {
+      "theta_dry|leg": 0.018,
+      "theta_wet|leg": 0.022,
+      "theta_dry|fix": 0.022,
+      "theta_wet|fix": 0.026
+     },
+     "0.99": {
+      "theta_dry|leg": 0.018,
+      "theta_wet|leg": 0.016,
+      "theta_dry|fix": 0.02,
+      "theta_wet|fix": 0.022
+     },
+     "0.995": {
+      "theta_dry|leg": 0.01,
+      "theta_wet|leg": 0.01,
+      "theta_dry|fix": 0.012,
+      "theta_wet|fix": 0.01
+     },
+     "0.9975": {
+      "theta_dry|leg": 0.01,
+      "theta_wet|leg": 0.006,
+      "theta_dry|fix": 0.006,
+      "theta_wet|fix": 0.004
+     }
+    },
+    "familywise": {
+     "0.9875": {
+      "fwer": 0.052,
+      "wilson95": [
+       0.0357,
+       0.0751
+      ],
+      "per_contrast_mean": 0.022
+     },
+     "0.99": {
+      "fwer": 0.044,
+      "wilson95": [
+       0.0292,
+       0.0657
+      ],
+      "per_contrast_mean": 0.019
+     },
+     "0.995": {
+      "fwer": 0.026,
+      "wilson95": [
+       0.0153,
+       0.044
+      ],
+      "per_contrast_mean": 0.0105
+     },
+     "0.9975": {
+      "fwer": 0.018,
+      "wilson95": [
+       0.0095,
+       0.0339
+      ],
+      "per_contrast_mean": 0.0065
+     }
+    }
+   },
+   "seconds": 629.6
+  },
+  "L3_levels_null_synthetic_balanced_34": {
+   "spec": {
+    "name": "L3_levels_null_synthetic_balanced_34",
+    "design": "synthetic_34",
+    "rate": "standard",
+    "n": 500,
+    "B": 4000,
+    "gen_seed": 103,
+    "levels": [
+     0.9875,
+     0.99,
+     0.995,
+     0.9975
+    ],
+    "fixed_B": true
+   },
+   "n": 500,
+   "level_error": {
+    "per_contrast": {
+     "0.9875": {
+      "theta_dry|leg": 0.016,
+      "theta_wet|leg": 0.012,
+      "theta_dry|fix": 0.018,
+      "theta_wet|fix": 0.016
+     },
+     "0.99": {
+      "theta_dry|leg": 0.014,
+      "theta_wet|leg": 0.012,
+      "theta_dry|fix": 0.014,
+      "theta_wet|fix": 0.01
+     },
+     "0.995": {
+      "theta_dry|leg": 0.008,
+      "theta_wet|leg": 0.008,
+      "theta_dry|fix": 0.006,
+      "theta_wet|fix": 0.006
+     },
+     "0.9975": {
+      "theta_dry|leg": 0.006,
+      "theta_wet|leg": 0.004,
+      "theta_dry|fix": 0.004,
+      "theta_wet|fix": 0.002
+     }
+    },
+    "familywise": {
+     "0.9875": {
+      "fwer": 0.034,
+      "wilson95": [
+       0.0213,
+       0.0538
+      ],
+      "per_contrast_mean": 0.0155
+     },
+     "0.99": {
+      "fwer": 0.028,
+      "wilson95": [
+       0.0168,
+       0.0464
+      ],
+      "per_contrast_mean": 0.0125
+     },
+     "0.995": {
+      "fwer": 0.018,
+      "wilson95": [
+       0.0095,
+       0.0339
+      ],
+      "per_contrast_mean": 0.007
+     },
+     "0.9975": {
+      "fwer": 0.01,
+      "wilson95": [
+       0.0043,
+       0.0232
+      ],
+      "per_contrast_mean": 0.004
+     }
+    }
+   },
+   "seconds": 704.9
+  }
+ }
+}

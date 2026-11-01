@@ -1,0 +1,72 @@
+{
+ "inputs": {
+  "label_source_sha256": "0a964846931c49346aba693be4be9a1082e36c6433865838d38d952659e703cc",
+  "rows": 14945,
+  "test_pool_rows": 1653
+ },
+ "P2_reconstruction": {
+  "vote_levels_equal_corpus_tertiles": 14945,
+  "tertile_cut_values": {
+   "sd": [
+    75.48122778418447,
+    77.31330306200526
+   ],
+   "otsu": [
+    0.47094524793388404,
+    0.509555785123967
+   ],
+   "sobel": [
+    319.95035275213365,
+    339.35587316784597
+   ],
+   "lap": [
+    14.521916627412534,
+    16.149986060775067
+   ]
+  },
+  "reversed_statistics": [
+   "lap",
+   "sobel"
+  ],
+  "training_rule_ge3_of_4_matches": 14945,
+  "training_label_matches": 14945,
+  "knn_spec": "k=9, uniform weights, Euclidean, unscaled features (sd, otsu, sobel, lap), fit on vote-labelled images, predicted for all images incl. the training images",
+  "final_class_matches": 14944,
+  "final_class_matches_test_pool": 1653,
+  "support_matches": 14942,
+  "knn_changed_vote": 108,
+  "knn_changed_vote_source": 108
+ },
+ "P4_native_statistics": {
+  "native_files_read": 14945,
+  "missing": 0,
+  "shapes": [
+   [
+    88,
+    88,
+    3
+   ]
+  ],
+  "recomputed": "cv2 IMREAD_GRAYSCALE; mean, population SD, Otsu (<= threshold) ratio, mean Sobel 3x3 magnitude",
+  "exact_match": {
+   "mean": 13711,
+   "sd": 13711,
+   "otsu": 13711,
+   "sobel": 14945
+  },
+  "max_abs_diff": {
+   "mean": 7.012351778655912,
+   "sd": 4.880386694322198,
+   "otsu": 0.028312263598640364,
+   "sobel": 5.684341886080801e-13
+  },
+  "discrepant_rows_mean_sd_otsu": 1234,
+  "discrepant_rows_in_test_pool": 163,
+  "discrepant_same_rows_all_three": true,
+  "laplacian_statistic": "not reproduced (definition of lap_spectrum unknown)",
+  "class_if_native_sd_otsu_with_source_cuts": {
+   "differs": 368,
+   "differs_in_test_pool": 37
+  }
+ }
+}

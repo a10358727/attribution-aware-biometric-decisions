@@ -24,6 +24,9 @@ paths, values or identifiers from the excluded material.
 | E060 / E061 validation-only pilot outputs | code exercises on a circular validation pool; not evidence |
 | Figure scripts of an earlier, unsubmitted write-up of the detector-level study | figure numbering does not match this manuscript; the underlying aggregates are kept in `data/aggregate/` |
 | Records of later, unexecuted study plans | internal planning; no results exist |
+| E062 appearance-label table, its source file and any capture-to-class mapping | per-capture labels of identifiable fingerprint captures; the rule is released instead |
+| E062 metadata audit, finger-by-class feasibility and label-feature discrepancy audit outputs | contain small finger-by-class cells or private folder structure |
+| E062 governance records (PI decisions, provenance statement, scope-change record, authorisation, run lock, access log, preflight and formal runner) | internal authorisation and signature records |
 | Credentials, tokens, keys, host names | never released (none found in this repository) |
 
 Kept privately and unchanged: every excluded file stays in the authors' research repository, including the

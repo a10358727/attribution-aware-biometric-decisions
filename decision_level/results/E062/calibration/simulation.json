@@ -1,0 +1,1012 @@
+{
+ "meta": {
+  "labels_csv_sha256": "693d7bab2f3b37c1791a178eb07fd781b0dadbc9d14d4d4409bb16ea9fc57436",
+  "manifest_p1_sha256": "474cac5f7b1720e0b9be313173a4c1afc53e0749ecf390fd029c2e5bf0e298d3",
+  "test_list_sha256": "7e73deba633c6f935476f0bd8b759b63502850215c3d3267f07d403b38485004",
+  "ra_analysis_sha256": "61abab5ef22d48abf0a4a980f884fce680948285eb0340c78e7eb6cc4d3c9ad2",
+  "ra_prefreeze_sha256": "3935c41e31afa2f7060202d7ade1235a2fba2d8123a8e365e2d5dc4251c773d2",
+  "note": "metadata skeleton + synthetic outcomes; no detector output read",
+  "B_override": 2000
+ },
+ "generator": {
+  "standard": {
+   "t": 2.0,
+   "s": 0.8
+  },
+  "low_rate": {
+   "t": 2.6,
+   "s": 0.5
+  }
+ },
+ "results": {
+  "N1_null_plasmode_standard": {
+   "spec": {
+    "name": "N1_null_plasmode_standard",
+    "design": "plasmode",
+    "rate": "standard",
+    "n": 1000,
+    "B": 2000,
+    "gen_seed": 1
+   },
+   "n": 1000,
+   "primary": {
+    "datasets": 1000,
+    "anchor_rate_mean": 0.0319,
+    "restored_rate_mean": 0.133,
+    "dry_captures_mean": 403.0,
+    "dry_subjects_mean": 29.0,
+    "all_four_reported": 1000,
+    "familywise_any_excludes_0": 63,
+    "fwer": 0.063,
+    "fwer_wilson95": [
+     0.0495,
+     0.0798
+    ],
+    "per_contrast": {
+     "theta_dry|leg": {
+      "readings": {
+       "includes 0": 972,
+       "below 0": 23,
+       "above 0": 5
+      },
+      "truth": 0.0,
+      "coverage": 0.972,
+      "coverage_wilson95": [
+       0.9598,
+       0.9806
+      ],
+      "excludes_0": 28,
+      "mean_width": 0.0898,
+      "mean_estimate": -0.00076
+     },
+     "theta_wet|leg": {
+      "readings": {
+       "includes 0": 969,
+       "below 0": 17,
+       "above 0": 14
+      },
+      "truth": 0.0,
+      "coverage": 0.969,
+      "coverage_wilson95": [
+       0.9563,
+       0.9781
+      ],
+      "excludes_0": 31,
+      "mean_width": 0.0806,
+      "mean_estimate": 0.00121
+     },
+     "theta_dry|fix": {
+      "readings": {
+       "includes 0": 971,
+       "below 0": 25,
+       "above 0": 4
+      },
+      "truth": 0.0,
+      "coverage": 0.971,
+      "coverage_wilson95": [
+       0.9587,
+       0.9797
+      ],
+      "excludes_0": 29,
+      "mean_width": 0.0898,
+      "mean_estimate": -0.00088
+     },
+     "theta_wet|fix": {
+      "readings": {
+       "includes 0": 971,
+       "below 0": 16,
+       "above 0": 13
+      },
+      "truth": 0.0,
+      "coverage": 0.971,
+      "coverage_wilson95": [
+       0.9587,
+       0.9797
+      ],
+      "excludes_0": 29,
+      "mean_width": 0.0806,
+      "mean_estimate": 0.00104
+     }
+    }
+   },
+   "seconds": 641.3
+  },
+  "N1b_null_plasmode_standard_B10000": {
+   "spec": {
+    "name": "N1b_null_plasmode_standard_B10000",
+    "design": "plasmode",
+    "rate": "standard",
+    "n": 300,
+    "B": 10000,
+    "gen_seed": 1,
+    "fixed_B": true
+   },
+   "n": 300,
+   "primary": {
+    "datasets": 300,
+    "anchor_rate_mean": 0.032,
+    "restored_rate_mean": 0.1335,
+    "dry_captures_mean": 403.0,
+    "dry_subjects_mean": 29.0,
+    "all_four_reported": 300,
+    "familywise_any_excludes_0": 18,
+    "fwer": 0.06,
+    "fwer_wilson95": [
+     0.0383,
+     0.0928
+    ],
+    "per_contrast": {
+     "theta_dry|leg": {
+      "readings": {
+       "includes 0": 290,
+       "below 0": 9,
+       "above 0": 1
+      },
+      "truth": 0.0,
+      "coverage": 0.9667,
+      "coverage_wilson95": [
+       0.9397,
+       0.9818
+      ],
+      "excludes_0": 10,
+      "mean_width": 0.0916,
+      "mean_estimate": -0.00114
+     },
+     "theta_wet|leg": {
+      "readings": {
+       "includes 0": 292,
+       "below 0": 6,
+       "above 0": 2
+      },
+      "truth": 0.0,
+      "coverage": 0.9733,
+      "coverage_wilson95": [
+       0.9483,
+       0.9864
+      ],
+      "excludes_0": 8,
+      "mean_width": 0.0814,
+      "mean_estimate": -0.00029
+     },
+     "theta_dry|fix": {
+      "readings": {
+       "includes 0": 292,
+       "below 0": 7,
+       "above 0": 1
+      },
+      "truth": 0.0,
+      "coverage": 0.9733,
+      "coverage_wilson95": [
+       0.9483,
+       0.9864
+      ],
+      "excludes_0": 8,
+      "mean_width": 0.0917,
+      "mean_estimate": -0.00125
+     },
+     "theta_wet|fix": {
+      "readings": {
+       "includes 0": 293,
+       "below 0": 5,
+       "above 0": 2
+      },
+      "truth": 0.0,
+      "coverage": 0.9767,
+      "coverage_wilson95": [
+       0.9526,
+       0.9887
+      ],
+      "excludes_0": 7,
+      "mean_width": 0.0815,
+      "mean_estimate": -0.00022
+     }
+    }
+   },
+   "seconds": 963.1
+  },
+  "N2_null_plasmode_low_rate": {
+   "spec": {
+    "name": "N2_null_plasmode_low_rate",
+    "design": "plasmode",
+    "rate": "low_rate",
+    "n": 1000,
+    "B": 2000,
+    "gen_seed": 2
+   },
+   "n": 1000,
+   "primary": {
+    "datasets": 1000,
+    "anchor_rate_mean": 0.0079,
+    "restored_rate_mean": 0.0256,
+    "dry_captures_mean": 403.0,
+    "dry_subjects_mean": 29.0,
+    "all_four_reported": 1000,
+    "familywise_any_excludes_0": 72,
+    "fwer": 0.072,
+    "fwer_wilson95": [
+     0.0576,
+     0.0897
+    ],
+    "per_contrast": {
+     "theta_dry|leg": {
+      "readings": {
+       "includes 0": 967,
+       "above 0": 5,
+       "below 0": 28
+      },
+      "truth": 0.0,
+      "coverage": 0.967,
+      "coverage_wilson95": [
+       0.954,
+       0.9764
+      ],
+      "excludes_0": 33,
+      "mean_width": 0.029,
+      "mean_estimate": -0.00048
+     },
+     "theta_wet|leg": {
+      "readings": {
+       "includes 0": 975,
+       "above 0": 8,
+       "below 0": 17
+      },
+      "truth": 0.0,
+      "coverage": 0.975,
+      "coverage_wilson95": [
+       0.9634,
+       0.983
+      ],
+      "excludes_0": 25,
+      "mean_width": 0.0263,
+      "mean_estimate": -0.00014
+     },
+     "theta_dry|fix": {
+      "readings": {
+       "includes 0": 966,
+       "below 0": 31,
+       "above 0": 3
+      },
+      "truth": 0.0,
+      "coverage": 0.966,
+      "coverage_wilson95": [
+       0.9529,
+       0.9756
+      ],
+      "excludes_0": 34,
+      "mean_width": 0.029,
+      "mean_estimate": -0.00048
+     },
+     "theta_wet|fix": {
+      "readings": {
+       "includes 0": 978,
+       "below 0": 17,
+       "above 0": 5
+      },
+      "truth": 0.0,
+      "coverage": 0.978,
+      "coverage_wilson95": [
+       0.9669,
+       0.9854
+      ],
+      "excludes_0": 22,
+      "mean_width": 0.0264,
+      "mean_estimate": -0.00017
+     }
+    }
+   },
+   "seconds": 641.8
+  },
+  "N3_null_dry_10_subjects": {
+   "spec": {
+    "name": "N3_null_dry_10_subjects",
+    "design": "plasmode_dry_10",
+    "rate": "standard",
+    "n": 500,
+    "B": 2000,
+    "gen_seed": 3
+   },
+   "n": 500,
+   "primary": {
+    "datasets": 500,
+    "anchor_rate_mean": 0.0319,
+    "restored_rate_mean": 0.1327,
+    "dry_captures_mean": 138.2,
+    "dry_subjects_mean": 10.0,
+    "all_four_reported": 500,
+    "familywise_any_excludes_0": 36,
+    "fwer": 0.072,
+    "fwer_wilson95": [
+     0.0525,
+     0.0981
+    ],
+    "per_contrast": {
+     "theta_dry|leg": {
+      "readings": {
+       "includes 0": 477,
+       "below 0": 22,
+       "above 0": 1
+      },
+      "truth": 0.0,
+      "coverage": 0.954,
+      "coverage_wilson95": [
+       0.9319,
+       0.9692
+      ],
+      "excludes_0": 23,
+      "mean_width": 0.1714,
+      "mean_estimate": -0.00032
+     },
+     "theta_wet|leg": {
+      "readings": {
+       "includes 0": 490,
+       "below 0": 5,
+       "above 0": 5
+      },
+      "truth": 0.0,
+      "coverage": 0.98,
+      "coverage_wilson95": [
+       0.9636,
+       0.9891
+      ],
+      "excludes_0": 10,
+      "mean_width": 0.0798,
+      "mean_estimate": 7e-05
+     },
+     "theta_dry|fix": {
+      "readings": {
+       "includes 0": 480,
+       "below 0": 19,
+       "above 0": 1
+      },
+      "truth": 0.0,
+      "coverage": 0.96,
+      "coverage_wilson95": [
+       0.939,
+       0.974
+      ],
+      "excludes_0": 20,
+      "mean_width": 0.1713,
+      "mean_estimate": -0.0004
+     },
+     "theta_wet|fix": {
+      "readings": {
+       "includes 0": 487,
+       "below 0": 7,
+       "above 0": 6
+      },
+      "truth": 0.0,
+      "coverage": 0.974,
+      "coverage_wilson95": [
+       0.956,
+       0.9847
+      ],
+      "excludes_0": 13,
+      "mean_width": 0.0797,
+      "mean_estimate": 3e-05
+     }
+    }
+   },
+   "seconds": 257.5
+  },
+  "N4_null_dry_5_subjects": {
+   "spec": {
+    "name": "N4_null_dry_5_subjects",
+    "design": "plasmode_dry_5",
+    "rate": "standard",
+    "n": 500,
+    "B": 2000,
+    "gen_seed": 4
+   },
+   "n": 500,
+   "primary": {
+    "datasets": 500,
+    "anchor_rate_mean": 0.0316,
+    "restored_rate_mean": 0.1337,
+    "dry_captures_mean": 70.1,
+    "dry_subjects_mean": 5.0,
+    "all_four_reported": 499,
+    "familywise_any_excludes_0": 44,
+    "fwer": 0.088,
+    "fwer_wilson95": [
+     0.0662,
+     0.1161
+    ],
+    "per_contrast": {
+     "theta_dry|leg": {
+      "readings": {
+       "includes 0": 463,
+       "below 0": 35,
+       "above 0": 2
+      },
+      "truth": 0.0,
+      "coverage": 0.926,
+      "coverage_wilson95": [
+       0.8997,
+       0.9458
+      ],
+      "excludes_0": 37,
+      "mean_width": 0.2727,
+      "mean_estimate": 0.00196
+     },
+     "theta_wet|leg": {
+      "readings": {
+       "includes 0": 492,
+       "below 0": 5,
+       "above 0": 3
+      },
+      "truth": 0.0,
+      "coverage": 0.984,
+      "coverage_wilson95": [
+       0.9687,
+       0.9919
+      ],
+      "excludes_0": 8,
+      "mean_width": 0.0808,
+      "mean_estimate": 0.00012
+     },
+     "theta_dry|fix": {
+      "readings": {
+       "includes 0": 464,
+       "below 0": 33,
+       "above 0": 2,
+       "uninformative (floor)": 1
+      },
+      "truth": 0.0,
+      "coverage": 0.928,
+      "coverage_wilson95": [
+       0.9019,
+       0.9475
+      ],
+      "excludes_0": 35,
+      "mean_width": 0.2752,
+      "mean_estimate": 0.0024
+     },
+     "theta_wet|fix": {
+      "readings": {
+       "includes 0": 492,
+       "below 0": 5,
+       "above 0": 3
+      },
+      "truth": 0.0,
+      "coverage": 0.984,
+      "coverage_wilson95": [
+       0.9687,
+       0.9919
+      ],
+      "excludes_0": 8,
+      "mean_width": 0.0805,
+      "mean_estimate": 0.00021
+     }
+    }
+   },
+   "seconds": 243.9
+  },
+  "N5_null_synthetic_12_subjects": {
+   "spec": {
+    "name": "N5_null_synthetic_12_subjects",
+    "design": "synthetic_12",
+    "rate": "standard",
+    "n": 500,
+    "B": 2000,
+    "gen_seed": 5
+   },
+   "n": 500,
+   "primary": {
+    "datasets": 500,
+    "anchor_rate_mean": 0.0319,
+    "restored_rate_mean": 0.134,
+    "dry_captures_mean": 214.8,
+    "dry_subjects_mean": 12.0,
+    "all_four_reported": 500,
+    "familywise_any_excludes_0": 31,
+    "fwer": 0.062,
+    "fwer_wilson95": [
+     0.044,
+     0.0867
+    ],
+    "per_contrast": {
+     "theta_dry|leg": {
+      "readings": {
+       "includes 0": 489,
+       "below 0": 7,
+       "above 0": 4
+      },
+      "truth": 0.0,
+      "coverage": 0.978,
+      "coverage_wilson95": [
+       0.961,
+       0.9877
+      ],
+      "excludes_0": 11,
+      "mean_width": 0.0825,
+      "mean_estimate": -0.00035
+     },
+     "theta_wet|leg": {
+      "readings": {
+       "includes 0": 485,
+       "above 0": 8,
+       "below 0": 7
+      },
+      "truth": 0.0,
+      "coverage": 0.97,
+      "coverage_wilson95": [
+       0.9511,
+       0.9817
+      ],
+      "excludes_0": 15,
+      "mean_width": 0.0827,
+      "mean_estimate": -0.00103
+     },
+     "theta_dry|fix": {
+      "readings": {
+       "includes 0": 489,
+       "below 0": 6,
+       "above 0": 5
+      },
+      "truth": 0.0,
+      "coverage": 0.978,
+      "coverage_wilson95": [
+       0.961,
+       0.9877
+      ],
+      "excludes_0": 11,
+      "mean_width": 0.083,
+      "mean_estimate": -0.00031
+     },
+     "theta_wet|fix": {
+      "readings": {
+       "below 0": 9,
+       "includes 0": 485,
+       "above 0": 6
+      },
+      "truth": 0.0,
+      "coverage": 0.97,
+      "coverage_wilson95": [
+       0.9511,
+       0.9817
+      ],
+      "excludes_0": 15,
+      "mean_width": 0.0832,
+      "mean_estimate": -0.00095
+     }
+    }
+   },
+   "seconds": 49.6
+  },
+  "N6_null_synthetic_20_imbalanced": {
+   "spec": {
+    "name": "N6_null_synthetic_20_imbalanced",
+    "design": "synthetic_20_imbalanced",
+    "rate": "standard",
+    "n": 500,
+    "B": 2000,
+    "gen_seed": 6
+   },
+   "n": 500,
+   "primary": {
+    "datasets": 500,
+    "anchor_rate_mean": 0.0322,
+    "restored_rate_mean": 0.1334,
+    "dry_captures_mean": 161.8,
+    "dry_subjects_mean": 20.0,
+    "all_four_reported": 500,
+    "familywise_any_excludes_0": 20,
+    "fwer": 0.04,
+    "fwer_wilson95": [
+     0.026,
+     0.061
+    ],
+    "per_contrast": {
+     "theta_dry|leg": {
+      "readings": {
+       "includes 0": 485,
+       "below 0": 12,
+       "above 0": 3
+      },
+      "truth": 0.0,
+      "coverage": 0.97,
+      "coverage_wilson95": [
+       0.9511,
+       0.9817
+      ],
+      "excludes_0": 15,
+      "mean_width": 0.0832,
+      "mean_estimate": -0.00052
+     },
+     "theta_wet|leg": {
+      "readings": {
+       "includes 0": 496,
+       "below 0": 3,
+       "above 0": 1
+      },
+      "truth": 0.0,
+      "coverage": 0.992,
+      "coverage_wilson95": [
+       0.9796,
+       0.9969
+      ],
+      "excludes_0": 4,
+      "mean_width": 0.06,
+      "mean_estimate": -3e-05
+     },
+     "theta_dry|fix": {
+      "readings": {
+       "includes 0": 487,
+       "below 0": 10,
+       "above 0": 3
+      },
+      "truth": 0.0,
+      "coverage": 0.974,
+      "coverage_wilson95": [
+       0.956,
+       0.9847
+      ],
+      "excludes_0": 13,
+      "mean_width": 0.0832,
+      "mean_estimate": -0.0004
+     },
+     "theta_wet|fix": {
+      "readings": {
+       "includes 0": 497,
+       "below 0": 3
+      },
+      "truth": 0.0,
+      "coverage": 0.994,
+      "coverage_wilson95": [
+       0.9825,
+       0.998
+      ],
+      "excludes_0": 3,
+      "mean_width": 0.0601,
+      "mean_estimate": -6e-05
+     }
+    }
+   },
+   "seconds": 154.9
+  },
+  "A1_effect_dry_legacy": {
+   "spec": {
+    "name": "A1_effect_dry_legacy",
+    "design": "plasmode",
+    "rate": "standard",
+    "n": 500,
+    "B": 2000,
+    "gen_seed": 7,
+    "eff": "{('leg', 0): 0.4}",
+    "truth_n": 400
+   },
+   "n": 500,
+   "primary": {
+    "datasets": 500,
+    "anchor_rate_mean": 0.0316,
+    "restored_rate_mean": 0.1442,
+    "dry_captures_mean": 403.0,
+    "dry_subjects_mean": 29.0,
+    "all_four_reported": 500,
+    "familywise_any_excludes_0": 461,
+    "fwer": 0.922,
+    "fwer_wilson95": [
+     0.8951,
+     0.9424
+    ],
+    "per_contrast": {
+     "theta_dry|leg": {
+      "readings": {
+       "above 0": 455,
+       "includes 0": 45
+      },
+      "truth": 0.09719,
+      "coverage": 0.966,
+      "coverage_wilson95": [
+       0.9462,
+       0.9787
+      ],
+      "excludes_0": 455,
+      "mean_width": 0.1364,
+      "mean_estimate": 0.09532
+     },
+     "theta_wet|leg": {
+      "readings": {
+       "includes 0": 487,
+       "above 0": 7,
+       "below 0": 6
+      },
+      "truth": 0.00017,
+      "coverage": 0.974,
+      "coverage_wilson95": [
+       0.956,
+       0.9847
+      ],
+      "excludes_0": 13,
+      "mean_width": 0.0803,
+      "mean_estimate": 0.00012
+     },
+     "theta_dry|fix": {
+      "readings": {
+       "includes 0": 489,
+       "below 0": 9,
+       "above 0": 2
+      },
+      "truth": 0.00066,
+      "coverage": 0.978,
+      "coverage_wilson95": [
+       0.961,
+       0.9877
+      ],
+      "excludes_0": 11,
+      "mean_width": 0.089,
+      "mean_estimate": -0.00075
+     },
+     "theta_wet|fix": {
+      "readings": {
+       "includes 0": 486,
+       "above 0": 8,
+       "below 0": 6
+      },
+      "truth": 0.00021,
+      "coverage": 0.972,
+      "coverage_wilson95": [
+       0.9536,
+       0.9832
+      ],
+      "excludes_0": 14,
+      "mean_width": 0.0802,
+      "mean_estimate": 5e-05
+     }
+    }
+   },
+   "seconds": 310.8
+  },
+  "F1_finger_effect_no_RA_effect": {
+   "spec": {
+    "name": "F1_finger_effect_no_RA_effect",
+    "design": "plasmode",
+    "rate": "standard",
+    "n": 300,
+    "B": 2000,
+    "gen_seed": 8,
+    "finger_eff": 0.6,
+    "with_s8": true,
+    "truth_n": 400
+   },
+   "n": 300,
+   "primary": {
+    "datasets": 300,
+    "anchor_rate_mean": 0.0307,
+    "restored_rate_mean": 0.1629,
+    "dry_captures_mean": 403.0,
+    "dry_subjects_mean": 29.0,
+    "all_four_reported": 300,
+    "familywise_any_excludes_0": 76,
+    "fwer": 0.2533,
+    "fwer_wilson95": [
+     0.2074,
+     0.3055
+    ],
+    "per_contrast": {
+     "theta_dry|leg": {
+      "readings": {
+       "below 0": 56,
+       "includes 0": 244
+      },
+      "truth": -0.03247,
+      "coverage": 0.98,
+      "coverage_wilson95": [
+       0.9571,
+       0.9908
+      ],
+      "excludes_0": 56,
+      "mean_width": 0.0999,
+      "mean_estimate": -0.03049
+     },
+     "theta_wet|leg": {
+      "readings": {
+       "includes 0": 291,
+       "below 0": 1,
+       "above 0": 8
+      },
+      "truth": 0.00956,
+      "coverage": 0.99,
+      "coverage_wilson95": [
+       0.971,
+       0.9966
+      ],
+      "excludes_0": 9,
+      "mean_width": 0.1022,
+      "mean_estimate": 0.00994
+     },
+     "theta_dry|fix": {
+      "readings": {
+       "below 0": 61,
+       "includes 0": 239
+      },
+      "truth": -0.03213,
+      "coverage": 0.98,
+      "coverage_wilson95": [
+       0.9571,
+       0.9908
+      ],
+      "excludes_0": 61,
+      "mean_width": 0.0998,
+      "mean_estimate": -0.03086
+     },
+     "theta_wet|fix": {
+      "readings": {
+       "includes 0": 290,
+       "below 0": 1,
+       "above 0": 9
+      },
+      "truth": 0.00992,
+      "coverage": 0.99,
+      "coverage_wilson95": [
+       0.971,
+       0.9966
+      ],
+      "excludes_0": 10,
+      "mean_width": 0.1023,
+      "mean_estimate": 0.00993
+     }
+    }
+   },
+   "S-8a": {
+    "datasets": 300,
+    "anchor_rate_mean": 0.0307,
+    "restored_rate_mean": 0.1629,
+    "dry_captures_mean": 403.0,
+    "dry_subjects_mean": 29.0,
+    "all_four_reported": 300,
+    "familywise_any_excludes_0": 12,
+    "fwer": 0.04,
+    "fwer_wilson95": [
+     0.023,
+     0.0686
+    ],
+    "per_contrast": {
+     "theta_dry|leg": {
+      "readings": {
+       "below 0": 4,
+       "includes 0": 294,
+       "above 0": 2
+      },
+      "truth": 0.0,
+      "coverage": 0.98,
+      "coverage_wilson95": [
+       0.9571,
+       0.9908
+      ],
+      "excludes_0": 6,
+      "mean_width": 0.0952,
+      "mean_estimate": 0.00052
+     },
+     "theta_wet|leg": {
+      "readings": {
+       "includes 0": 296,
+       "below 0": 4
+      },
+      "truth": 0.0,
+      "coverage": 0.9867,
+      "coverage_wilson95": [
+       0.9662,
+       0.9948
+      ],
+      "excludes_0": 4,
+      "mean_width": 0.0933,
+      "mean_estimate": -0.00028
+     },
+     "theta_dry|fix": {
+      "readings": {
+       "below 0": 4,
+       "includes 0": 294,
+       "above 0": 2
+      },
+      "truth": 0.0,
+      "coverage": 0.98,
+      "coverage_wilson95": [
+       0.9571,
+       0.9908
+      ],
+      "excludes_0": 6,
+      "mean_width": 0.0954,
+      "mean_estimate": 0.00044
+     },
+     "theta_wet|fix": {
+      "readings": {
+       "includes 0": 295,
+       "below 0": 5
+      },
+      "truth": 0.0,
+      "coverage": 0.9833,
+      "coverage_wilson95": [
+       0.9616,
+       0.9929
+      ],
+      "excludes_0": 5,
+      "mean_width": 0.0937,
+      "mean_estimate": -4e-05
+     }
+    }
+   },
+   "S-8w": {
+    "datasets": 300,
+    "anchor_rate_mean": 0.0307,
+    "restored_rate_mean": 0.1629,
+    "dry_captures_mean": 403.0,
+    "dry_subjects_mean": 29.0,
+    "all_four_reported": 300,
+    "familywise_any_excludes_0": 12,
+    "fwer": 0.04,
+    "fwer_wilson95": [
+     0.023,
+     0.0686
+    ],
+    "per_contrast": {
+     "theta_dry|leg": {
+      "readings": {
+       "includes 0": 294,
+       "below 0": 5,
+       "above 0": 1
+      },
+      "truth": 0.0,
+      "coverage": 0.98,
+      "coverage_wilson95": [
+       0.9571,
+       0.9908
+      ],
+      "excludes_0": 6,
+      "mean_width": 0.0807,
+      "mean_estimate": 0.00076
+     },
+     "theta_wet|leg": {
+      "readings": {
+       "includes 0": 294,
+       "below 0": 3,
+       "above 0": 3
+      },
+      "truth": 0.0,
+      "coverage": 0.98,
+      "coverage_wilson95": [
+       0.9571,
+       0.9908
+      ],
+      "excludes_0": 6,
+      "mean_width": 0.0731,
+      "mean_estimate": 0.0011
+     },
+     "theta_dry|fix": {
+      "readings": {
+       "includes 0": 296,
+       "below 0": 4
+      },
+      "truth": 0.0,
+      "coverage": 0.9867,
+      "coverage_wilson95": [
+       0.9662,
+       0.9948
+      ],
+      "excludes_0": 4,
+      "mean_width": 0.0803,
+      "mean_estimate": 0.0006
+     },
+     "theta_wet|fix": {
+      "readings": {
+       "includes 0": 297,
+       "below 0": 1,
+       "above 0": 2
+      },
+      "truth": 0.0,
+      "coverage": 0.99,
+      "coverage_wilson95": [
+       0.971,
+       0.9966
+      ],
+      "excludes_0": 3,
+      "mean_width": 0.0732,
+      "mean_estimate": 0.00114
+     }
+    }
+   },
+   "note": "no RA effect is planted; any interval excluding 0 is finger confounding. 'truth' of the primary estimand includes the finger composition",
+   "seconds": 749.3
+  }
+ }
+}

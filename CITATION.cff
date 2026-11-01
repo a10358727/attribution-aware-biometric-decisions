@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this software or its aggregate results, please cite it using the metadata below."
 title: "attribution-aware-biometric-decisions: code and aggregate results for attribution-aware evaluation of image restoration in biometric access decisions"
-abstract: "Detector-level evaluation methods, training configurations and aggregate results, and the analysis code and aggregate results of the credential-level burden (E060) and deployment-policy simulation (E061) analyses, accompanying the manuscript 'Attribution-Aware Evaluation of Image Restoration for Trustworthy Biometric Decisions in Cyber-Physical-Social Systems' (prepared for submission to IEEE Transactions on Computational Social Systems; not yet published)."
+abstract: "Detector-level evaluation methods, training configurations and aggregate results, and the analysis code and aggregate results of the credential-level burden (E060), deployment-policy simulation (E061) and exploratory appearance-class (E062) analyses, accompanying the manuscript 'Attribution-Aware Evaluation of Image Restoration for Trustworthy Biometric Decisions in Cyber-Physical-Social Systems' (prepared for submission to IEEE Transactions on Computational Social Systems; not yet published)."
 type: software
 license: MIT
-version: "1.0.0"
-date-released: "2026-10-31"
+version: "1.1.0"
+date-released: "2026-11-02"
 authors:
   - family-names: Hsu
     given-names: Mao-Hsiu
