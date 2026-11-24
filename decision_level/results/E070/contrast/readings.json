@@ -1,0 +1,275 @@
+{
+ "families": [
+  "Rn",
+  "Bs",
+  "Dt"
+ ],
+ "readings": {
+  "FVC2000_Db3": {
+   "bil": {
+    "families_supporting_both_models": [],
+    "families_eligible": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "B_degraded_legacy": {
+     "Rn|p1": 0.17178612059158133,
+     "Rn|p2": 0.09340159271899887,
+     "Bs|p1": 0.17610921501706484,
+     "Bs|p2": 0.11911262798634811,
+     "Dt|p1": 0.2671217292377702,
+     "Dt|p2": 0.17792946530147896
+    },
+    "Q1_supported": false,
+    "status": "final",
+    "underpowered": false,
+    "unreliable_nfiq2_failures": false,
+    "stratum": "primary"
+   },
+   "tv": {
+    "families_supporting_both_models": [],
+    "families_eligible": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "B_degraded_legacy": {
+     "Rn|p1": 0.17178612059158133,
+     "Rn|p2": 0.09340159271899887,
+     "Bs|p1": 0.17610921501706484,
+     "Bs|p2": 0.11911262798634811,
+     "Dt|p1": 0.2671217292377702,
+     "Dt|p2": 0.17792946530147896
+    },
+    "Q1_supported": false,
+    "status": "final",
+    "underpowered": false,
+    "unreliable_nfiq2_failures": false,
+    "stratum": "primary"
+   }
+  },
+  "FVC2002_Db1": {
+   "bil": {
+    "families_supporting_both_models": [],
+    "families_eligible": [
+     "Dt"
+    ],
+    "B_degraded_legacy": {
+     "Rn|p1": 0.027249022164276403,
+     "Rn|p2": 0.0020860495436766623,
+     "Bs|p1": 0.038852672750977826,
+     "Bs|p2": 0.003129074315514994,
+     "Dt|p1": 0.14172099087353324,
+     "Dt|p2": 0.056844850065189044
+    },
+    "Q1_supported": false,
+    "status": "final",
+    "underpowered": false,
+    "unreliable_nfiq2_failures": false,
+    "stratum": "primary"
+   },
+   "tv": {
+    "families_supporting_both_models": [],
+    "families_eligible": [
+     "Dt"
+    ],
+    "B_degraded_legacy": {
+     "Rn|p1": 0.027249022164276403,
+     "Rn|p2": 0.0020860495436766623,
+     "Bs|p1": 0.038852672750977826,
+     "Bs|p2": 0.003129074315514994,
+     "Dt|p1": 0.14172099087353324,
+     "Dt|p2": 0.056844850065189044
+    },
+    "Q1_supported": false,
+    "status": "final",
+    "underpowered": false,
+    "unreliable_nfiq2_failures": false,
+    "stratum": "primary"
+   }
+  },
+  "FVC2004_DB1": {
+   "bil": {
+    "families_supporting_both_models": [],
+    "families_eligible": [
+     "Dt"
+    ],
+    "B_degraded_legacy": {
+     "Rn|p1": 0.02181603773584906,
+     "Rn|p2": 0.0018867924528301887,
+     "Bs|p1": 0.02358490566037736,
+     "Bs|p2": 0.0025943396226415097,
+     "Dt|p1": 0.11768867924528303,
+     "Dt|p2": 0.09811320754716982
+    },
+    "Q1_supported": false,
+    "status": "final",
+    "underpowered": false,
+    "unreliable_nfiq2_failures": false,
+    "stratum": "primary"
+   },
+   "tv": {
+    "families_supporting_both_models": [],
+    "families_eligible": [
+     "Dt"
+    ],
+    "B_degraded_legacy": {
+     "Rn|p1": 0.02181603773584906,
+     "Rn|p2": 0.0018867924528301887,
+     "Bs|p1": 0.02358490566037736,
+     "Bs|p2": 0.0025943396226415097,
+     "Dt|p1": 0.11768867924528303,
+     "Dt|p2": 0.09811320754716982
+    },
+    "Q1_supported": false,
+    "status": "final",
+    "underpowered": false,
+    "unreliable_nfiq2_failures": false,
+    "stratum": "primary"
+   }
+  },
+  "FVC2004_DB2": {
+   "bil": {
+    "families_supporting_both_models": [],
+    "families_eligible": [
+     "Bs",
+     "Dt"
+    ],
+    "B_degraded_legacy": {
+     "Rn|p1": 0.13383199079401614,
+     "Rn|p2": 0.004142692750287688,
+     "Bs|p1": 0.15742232451093213,
+     "Bs|p2": 0.005983889528193326,
+     "Dt|p1": 0.2569620253164557,
+     "Dt|p2": 0.13187571921749136
+    },
+    "Q1_supported": false,
+    "status": "final",
+    "underpowered": false,
+    "unreliable_nfiq2_failures": false,
+    "stratum": "primary"
+   },
+   "tv": {
+    "families_supporting_both_models": [],
+    "families_eligible": [
+     "Bs",
+     "Dt"
+    ],
+    "B_degraded_legacy": {
+     "Rn|p1": 0.13383199079401614,
+     "Rn|p2": 0.004142692750287688,
+     "Bs|p1": 0.15742232451093213,
+     "Bs|p2": 0.005983889528193326,
+     "Dt|p1": 0.2569620253164557,
+     "Dt|p2": 0.13187571921749136
+    },
+    "Q1_supported": false,
+    "status": "final",
+    "underpowered": false,
+    "unreliable_nfiq2_failures": false,
+    "stratum": "primary"
+   }
+  },
+  "SD302_P": {
+   "bil": {
+    "families_supporting_both_models": [],
+    "families_eligible": [
+     "Dt"
+    ],
+    "B_degraded_legacy": {
+     "Rn|p1": 0.07137254901960785,
+     "Rn|p2": 0.0027450980392156863,
+     "Bs|p1": 0.09176470588235294,
+     "Bs|p2": 0.0027450980392156863,
+     "Dt|p1": 0.32784313725490194,
+     "Dt|p2": 0.10549019607843138
+    },
+    "Q1_supported": false,
+    "status": "final",
+    "underpowered": true,
+    "unreliable_nfiq2_failures": false,
+    "stratum": "primary"
+   },
+   "tv": {
+    "families_supporting_both_models": [],
+    "families_eligible": [
+     "Dt"
+    ],
+    "B_degraded_legacy": {
+     "Rn|p1": 0.07137254901960785,
+     "Rn|p2": 0.0027450980392156863,
+     "Bs|p1": 0.09176470588235294,
+     "Bs|p2": 0.0027450980392156863,
+     "Dt|p1": 0.32784313725490194,
+     "Dt|p2": 0.10549019607843138
+    },
+    "Q1_supported": false,
+    "status": "final",
+    "underpowered": true,
+    "unreliable_nfiq2_failures": false,
+    "stratum": "primary"
+   }
+  },
+  "SD302_S": {
+   "bil": {
+    "families_supporting_both_models": [],
+    "families_eligible": [
+     "Bs",
+     "Dt"
+    ],
+    "B_degraded_legacy": {
+     "Rn|p1": 0.10320962888666,
+     "Rn|p2": 0.004012036108324976,
+     "Bs|p1": 0.12296890672016048,
+     "Bs|p2": 0.007121364092276832,
+     "Dt|p1": 0.2906720160481444,
+     "Dt|p2": 0.0675025075225677
+    },
+    "Q1_supported": false,
+    "status": "final",
+    "underpowered": false,
+    "unreliable_nfiq2_failures": false,
+    "stratum": "secondary"
+   },
+   "tv": {
+    "families_supporting_both_models": [],
+    "families_eligible": [
+     "Bs",
+     "Dt"
+    ],
+    "B_degraded_legacy": {
+     "Rn|p1": 0.10320962888666,
+     "Rn|p2": 0.004012036108324976,
+     "Bs|p1": 0.12296890672016048,
+     "Bs|p2": 0.007121364092276832,
+     "Dt|p1": 0.2906720160481444,
+     "Dt|p2": 0.0675025075225677
+    },
+    "Q1_supported": false,
+    "status": "final",
+    "underpowered": false,
+    "unreliable_nfiq2_failures": false,
+    "stratum": "secondary"
+   }
+  }
+ },
+ "counts": {
+  "bil|primary": {
+   "adequately_powered_eligible_devices": 1,
+   "Q1_supported_or_interim_both": 0
+  },
+  "bil|secondary": {
+   "adequately_powered_eligible_devices": 0,
+   "Q1_supported_or_interim_both": 0
+  },
+  "tv|primary": {
+   "adequately_powered_eligible_devices": 1,
+   "Q1_supported_or_interim_both": 0
+  },
+  "tv|secondary": {
+   "adequately_powered_eligible_devices": 0,
+   "Q1_supported_or_interim_both": 0
+  }
+ }
+}

@@ -1,4 +1,4 @@
-# Public release scope (v1.1.0 release candidate, 2026-11-02)
+# Public release scope (v1.1.0, 2026-11-24; the 2026-11-02 release candidate plus the C1 additions in §2b)
 
 Rule: built from an explicit allowlist; nothing is mirrored from the private research repository and no private Git
 history is included. Every file below was copied by name, checked by `scripts/privacy_check.py` and, where pinned,
@@ -29,6 +29,24 @@ by `scripts/verify_frozen_sources.py`. The excluded categories and their reasons
 | `decision_level/results/E062/calibration/*.json` | synthetic-outcome calibration summaries (simulation, level calibration, K1–K4) and the label-rule reconstruction counts | byte copies | aggregates; no outcome of the study |
 | `decision_level/results/E060_post_freeze_annotation/E060_M1_exclusion_counts.json` | credentials excluded from retry model M1 (60 for K = 3, 117 for K = 5), reconstructed from credential composition after the freeze | byte copy | post-freeze annotation, not a frozen result |
 | `scripts/privacy_check.py`, `scripts/verify_frozen_sources.py`, `.github/workflows/ci.yml` | privacy gate, source verification, CI (no data download) | new | public tooling |
+
+## 2b. Added for the C1 manuscript (2026-11-24)
+
+Built by an allowlist export: every analysis source was checked against the SHA-256 pinned in its own authorisation
+record (or freeze record / run output) **before** copying; `RELEASE_MANIFEST_C1.json` lists each file with its research
+and public SHA-256. The only permitted change is a declared local-path redaction (one file).
+
+| Path (under `decision_level/`) | What | Status |
+|---|---|---|
+| `experiments/E063_session_robustness/` | `run_e063.py` (M0/M1, M0 on M1's credentials), `session_models.py`, `breakeven_r3_signcorrected.py` (Part A r3, the version the manuscript reports), `breakeven.py` (r2, superseded), 1 test file | byte-identical, except `run_e063.py`: its private manifest path is redacted (research SHA-256 `0916ae34…`, pinned by the E063 authorisation) |
+| `experiments/E064_session_persistence_K_attacker/` | `run_e064.py`, `session_m2.py` (persistent failures M2), 2 test files | byte-identical |
+| `experiments/E065_matcher_cascade_genuine/run_e065.py`, `experiments/E071_matcher_verification/run_e071.py` | genuine-matching and cascade analysis; embedding calls the research matcher (not released) | byte-identical |
+| `experiments/E067_validation_refit_uncertainty/` | `refit.py`, `run_e067.py`, `run_e067_stage_t.py`, 2 test files | byte-identical |
+| `experiments/E068_fingerprint_enhancement_condition/e068_analyze.py`, `e068_common.py`; `experiments/E049_learned_restorer_sensitivity/analyze.py`; `experiments/E036_interaction_statistics/run_e036.py` | E068 analysis and its frozen dependencies | byte-identical; inspection only |
+| `experiments/E069_cross_sensor_bonafide_transfer/e069_analyze.py`, `e069_common.py`; `experiments/E070_quality_conditioned_external/e070_contrast.py` | external-capture analysis and NFIQ 2 contrast | byte-identical; inspection only |
+| `conftest.py` | skips 7 end-to-end driver tests that need unreleased resources | new public file |
+| `results/E063/`, `E064/`, `E065/`, `E067/`, `E068/`, `E069/`, `E070/`, `E071/` | final aggregate outputs of the runs the manuscript reports (cell-, device- or tertile-level; no per-image, per-capture or per-subject row) | byte copies; `E068/analysis/class.public.json` is a standard-JSON copy with the launch/provenance keys removed |
+| `scripts/c1_mk_sens.py`, `scripts/c1_mk_ext.py`, `scripts/c1_check_macros.py`, `results/C1_manuscript_macros/` | the manuscript's macro generators with only their input/output paths remapped, and the manuscript's macro/table files as expected outputs | public tooling; the check reproduces all 7 files from the released aggregates |
 
 ## 3. Needs private dependencies — released for inspection only, or not at all
 

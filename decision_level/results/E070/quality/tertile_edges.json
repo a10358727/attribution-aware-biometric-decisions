@@ -1,0 +1,108 @@
+{
+ "edges": {
+  "FVC2000_Db3": {
+   "edges": [
+    31.0,
+    47.0
+   ],
+   "bin_counts": [
+    304,
+    289,
+    286
+   ],
+   "underpowered_bin_lt50": false
+  },
+  "FVC2002_Db1": {
+   "edges": [
+    62.0,
+    72.0
+   ],
+   "bin_counts": [
+    267,
+    253,
+    247
+   ],
+   "underpowered_bin_lt50": false
+  },
+  "FVC2004_DB1": {
+   "edges": [
+    54.0,
+    67.0
+   ],
+   "bin_counts": [
+    290,
+    296,
+    262
+   ],
+   "underpowered_bin_lt50": false
+  },
+  "FVC2004_DB2": {
+   "edges": [
+    27.0,
+    50.0
+   ],
+   "bin_counts": [
+    293,
+    290,
+    286
+   ],
+   "underpowered_bin_lt50": false
+  },
+  "SD302_S": {
+   "edges": [
+    59.0,
+    75.0
+   ],
+   "bin_counts": [
+    343,
+    349,
+    305
+   ],
+   "underpowered_bin_lt50": false
+  },
+  "SD302_P": {
+   "edges": [
+    42.0,
+    60.0
+   ],
+   "bin_counts": [
+    86,
+    87,
+    82
+   ],
+   "underpowered_bin_lt50": false
+  }
+ },
+ "failures": {
+  "FVC2000_Db3": {
+   "n": 879,
+   "failed": 0,
+   "unreliable": false
+  },
+  "FVC2002_Db1": {
+   "n": 767,
+   "failed": 0,
+   "unreliable": false
+  },
+  "FVC2004_DB1": {
+   "n": 848,
+   "failed": 0,
+   "unreliable": false
+  },
+  "FVC2004_DB2": {
+   "n": 880,
+   "failed": 11,
+   "unreliable": false
+  },
+  "SD302_S": {
+   "n": 997,
+   "failed": 0,
+   "unreliable": false
+  },
+  "SD302_P": {
+   "n": 255,
+   "failed": 0,
+   "unreliable": false
+  }
+ }
+}

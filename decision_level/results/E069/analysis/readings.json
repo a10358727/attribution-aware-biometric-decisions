@@ -1,0 +1,941 @@
+{
+ "families": [
+  "Rn",
+  "Bs",
+  "Dt"
+ ],
+ "final": true,
+ "readings": {
+  "FVC2000_Db1": {
+   "bil": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [],
+    "families_also_ddB_neg_both_models": [],
+    "X2_transfers": null,
+    "normalization_dependence_transfers": null,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": false,
+    "status": "NO INTERPRETABLE READING (cells outside the B(degraded) eligibility range)",
+    "stratum": "primary",
+    "impression": "plain",
+    "dataset": "FVC",
+    "device": "FVC2000_Db1",
+    "underpowered": false
+   },
+   "tv": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [],
+    "families_also_ddB_neg_both_models": [],
+    "X2_transfers": null,
+    "normalization_dependence_transfers": null,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": false,
+    "status": "NO INTERPRETABLE READING (cells outside the B(degraded) eligibility range)",
+    "stratum": "primary",
+    "impression": "plain",
+    "dataset": "FVC",
+    "device": "FVC2000_Db1",
+    "underpowered": false
+   }
+  },
+  "FVC2000_Db2": {
+   "bil": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [],
+    "families_also_ddB_neg_both_models": [],
+    "X2_transfers": false,
+    "normalization_dependence_transfers": false,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": true,
+    "status": "final",
+    "stratum": "primary",
+    "impression": "plain",
+    "dataset": "FVC",
+    "device": "FVC2000_Db2",
+    "underpowered": false
+   },
+   "tv": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [],
+    "families_also_ddB_neg_both_models": [],
+    "X2_transfers": false,
+    "normalization_dependence_transfers": false,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": true,
+    "status": "final",
+    "stratum": "primary",
+    "impression": "plain",
+    "dataset": "FVC",
+    "device": "FVC2000_Db2",
+    "underpowered": false
+   }
+  },
+  "FVC2000_Db3": {
+   "bil": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [],
+    "families_also_ddB_neg_both_models": [],
+    "X2_transfers": false,
+    "normalization_dependence_transfers": false,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": true,
+    "status": "final",
+    "stratum": "primary",
+    "impression": "plain",
+    "dataset": "FVC",
+    "device": "FVC2000_Db3",
+    "underpowered": false
+   },
+   "tv": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [],
+    "families_also_ddB_neg_both_models": [],
+    "X2_transfers": false,
+    "normalization_dependence_transfers": false,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": true,
+    "status": "final",
+    "stratum": "primary",
+    "impression": "plain",
+    "dataset": "FVC",
+    "device": "FVC2000_Db3",
+    "underpowered": false
+   }
+  },
+  "FVC2002_Db1": {
+   "bil": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [
+     "Dt"
+    ],
+    "families_also_ddB_neg_both_models": [
+     "Dt"
+    ],
+    "X2_transfers": null,
+    "normalization_dependence_transfers": null,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": false,
+    "status": "NO INTERPRETABLE READING (cells outside the B(degraded) eligibility range)",
+    "stratum": "primary",
+    "impression": "plain",
+    "dataset": "FVC",
+    "device": "FVC2002_Db1",
+    "underpowered": false
+   },
+   "tv": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [],
+    "families_also_ddB_neg_both_models": [],
+    "X2_transfers": null,
+    "normalization_dependence_transfers": null,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": false,
+    "status": "NO INTERPRETABLE READING (cells outside the B(degraded) eligibility range)",
+    "stratum": "primary",
+    "impression": "plain",
+    "dataset": "FVC",
+    "device": "FVC2002_Db1",
+    "underpowered": false
+   }
+  },
+  "FVC2002_Db3": {
+   "bil": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [],
+    "families_also_ddB_neg_both_models": [],
+    "X2_transfers": false,
+    "normalization_dependence_transfers": false,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": true,
+    "status": "final",
+    "stratum": "primary",
+    "impression": "plain",
+    "dataset": "FVC",
+    "device": "FVC2002_Db3",
+    "underpowered": false
+   },
+   "tv": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [],
+    "families_also_ddB_neg_both_models": [],
+    "X2_transfers": false,
+    "normalization_dependence_transfers": false,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": true,
+    "status": "final",
+    "stratum": "primary",
+    "impression": "plain",
+    "dataset": "FVC",
+    "device": "FVC2002_Db3",
+    "underpowered": false
+   }
+  },
+  "FVC2004_DB1": {
+   "bil": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [],
+    "families_also_ddB_neg_both_models": [],
+    "X2_transfers": null,
+    "normalization_dependence_transfers": null,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": false,
+    "status": "NO INTERPRETABLE READING (cells outside the B(degraded) eligibility range)",
+    "stratum": "primary",
+    "impression": "plain",
+    "dataset": "FVC",
+    "device": "FVC2004_DB1",
+    "underpowered": false
+   },
+   "tv": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [],
+    "families_also_ddB_neg_both_models": [],
+    "X2_transfers": null,
+    "normalization_dependence_transfers": null,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": false,
+    "status": "NO INTERPRETABLE READING (cells outside the B(degraded) eligibility range)",
+    "stratum": "primary",
+    "impression": "plain",
+    "dataset": "FVC",
+    "device": "FVC2004_DB1",
+    "underpowered": false
+   }
+  },
+  "FVC2004_DB2": {
+   "bil": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Bs",
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [],
+    "families_also_ddB_neg_both_models": [],
+    "X2_transfers": false,
+    "normalization_dependence_transfers": false,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": true,
+    "status": "final",
+    "stratum": "primary",
+    "impression": "plain",
+    "dataset": "FVC",
+    "device": "FVC2004_DB2",
+    "underpowered": false
+   },
+   "tv": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Bs",
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [],
+    "families_also_ddB_neg_both_models": [],
+    "X2_transfers": false,
+    "normalization_dependence_transfers": false,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": true,
+    "status": "final",
+    "stratum": "primary",
+    "impression": "plain",
+    "dataset": "FVC",
+    "device": "FVC2004_DB2",
+    "underpowered": false
+   }
+  },
+  "SD302_C": {
+   "bil": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [],
+    "families_also_ddB_neg_both_models": [],
+    "X2_transfers": null,
+    "normalization_dependence_transfers": null,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": false,
+    "status": "NO INTERPRETABLE READING (cells outside the B(degraded) eligibility range)",
+    "stratum": "secondary",
+    "impression": "rolled-equivalent",
+    "dataset": "SD302",
+    "device": "SD302_C",
+    "underpowered": false
+   },
+   "tv": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [],
+    "families_also_ddB_neg_both_models": [],
+    "X2_transfers": null,
+    "normalization_dependence_transfers": null,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": false,
+    "status": "NO INTERPRETABLE READING (cells outside the B(degraded) eligibility range)",
+    "stratum": "secondary",
+    "impression": "rolled-equivalent",
+    "dataset": "SD302",
+    "device": "SD302_C",
+    "underpowered": false
+   }
+  },
+  "SD302_E": {
+   "bil": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [],
+    "families_also_ddB_neg_both_models": [],
+    "X2_transfers": null,
+    "normalization_dependence_transfers": null,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": false,
+    "status": "NO INTERPRETABLE READING (cells outside the B(degraded) eligibility range)",
+    "stratum": "secondary",
+    "impression": "rolled-equivalent",
+    "dataset": "SD302",
+    "device": "SD302_E",
+    "underpowered": false
+   },
+   "tv": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [
+     "Dt"
+    ],
+    "families_also_ddB_neg_both_models": [
+     "Dt"
+    ],
+    "X2_transfers": null,
+    "normalization_dependence_transfers": null,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": false,
+    "status": "NO INTERPRETABLE READING (cells outside the B(degraded) eligibility range)",
+    "stratum": "secondary",
+    "impression": "rolled-equivalent",
+    "dataset": "SD302",
+    "device": "SD302_E",
+    "underpowered": false
+   }
+  },
+  "SD302_G": {
+   "bil": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [],
+    "families_also_ddB_neg_both_models": [],
+    "X2_transfers": null,
+    "normalization_dependence_transfers": null,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": false,
+    "status": "NO INTERPRETABLE READING (cells outside the B(degraded) eligibility range)",
+    "stratum": "secondary",
+    "impression": "rolled-equivalent",
+    "dataset": "SD302",
+    "device": "SD302_G",
+    "underpowered": false
+   },
+   "tv": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [],
+    "families_also_ddB_neg_both_models": [],
+    "X2_transfers": null,
+    "normalization_dependence_transfers": null,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": false,
+    "status": "NO INTERPRETABLE READING (cells outside the B(degraded) eligibility range)",
+    "stratum": "secondary",
+    "impression": "rolled-equivalent",
+    "dataset": "SD302",
+    "device": "SD302_G",
+    "underpowered": false
+   }
+  },
+  "SD302_K": {
+   "bil": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [],
+    "families_also_ddB_neg_both_models": [],
+    "X2_transfers": false,
+    "normalization_dependence_transfers": false,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": true,
+    "status": "final",
+    "stratum": "primary",
+    "impression": "plain",
+    "dataset": "SD302",
+    "device": "SD302_K",
+    "underpowered": false
+   },
+   "tv": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [],
+    "families_also_ddB_neg_both_models": [],
+    "X2_transfers": false,
+    "normalization_dependence_transfers": false,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": true,
+    "status": "final",
+    "stratum": "primary",
+    "impression": "plain",
+    "dataset": "SD302",
+    "device": "SD302_K",
+    "underpowered": false
+   }
+  },
+  "SD302_M": {
+   "bil": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [
+     "Rn"
+    ],
+    "families_also_ddB_neg_both_models": [
+     "Rn"
+    ],
+    "X2_transfers": false,
+    "normalization_dependence_transfers": false,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": true,
+    "status": "final",
+    "stratum": "primary",
+    "impression": "plain",
+    "dataset": "SD302",
+    "device": "SD302_M",
+    "underpowered": false
+   },
+   "tv": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [
+     "Rn",
+     "Bs"
+    ],
+    "families_also_ddB_neg_both_models": [
+     "Rn",
+     "Bs"
+    ],
+    "X2_transfers": true,
+    "normalization_dependence_transfers": true,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": true,
+    "status": "final",
+    "stratum": "primary",
+    "impression": "plain",
+    "dataset": "SD302",
+    "device": "SD302_M",
+    "underpowered": false
+   }
+  },
+  "SD302_P": {
+   "bil": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [],
+    "families_also_ddB_neg_both_models": [],
+    "X2_transfers": null,
+    "normalization_dependence_transfers": null,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": false,
+    "status": "NO INTERPRETABLE READING (cells outside the B(degraded) eligibility range)",
+    "stratum": "primary",
+    "impression": "plain",
+    "dataset": "SD302",
+    "device": "SD302_P",
+    "underpowered": true
+   },
+   "tv": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [
+     "Dt"
+    ],
+    "families_also_ddB_neg_both_models": [
+     "Dt"
+    ],
+    "X2_transfers": null,
+    "normalization_dependence_transfers": null,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": false,
+    "status": "NO INTERPRETABLE READING (cells outside the B(degraded) eligibility range)",
+    "stratum": "primary",
+    "impression": "plain",
+    "dataset": "SD302",
+    "device": "SD302_P",
+    "underpowered": true
+   }
+  },
+  "SD302_S": {
+   "bil": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Bs",
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [
+     "Bs",
+     "Dt"
+    ],
+    "families_also_ddB_neg_both_models": [
+     "Dt"
+    ],
+    "X2_transfers": true,
+    "normalization_dependence_transfers": false,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": true,
+    "status": "final",
+    "stratum": "secondary",
+    "impression": "4-4-2 slap (segmented)",
+    "dataset": "SD302",
+    "device": "SD302_S",
+    "underpowered": false
+   },
+   "tv": {
+    "families_scored": [
+     "Rn",
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_legacy": [
+     "Bs",
+     "Dt"
+    ],
+    "families_eligible_both_arms": [
+     "Bs",
+     "Dt"
+    ],
+    "families_legacy_dB_pos_both_models": [
+     "Bs",
+     "Dt"
+    ],
+    "families_also_ddB_neg_both_models": [
+     "Dt"
+    ],
+    "X2_transfers": true,
+    "normalization_dependence_transfers": false,
+    "interim_both_families": null,
+    "interim_both_families_norm_dependence": null,
+    "interpretable": true,
+    "status": "final",
+    "stratum": "secondary",
+    "impression": "4-4-2 slap (segmented)",
+    "dataset": "SD302",
+    "device": "SD302_S",
+    "underpowered": false
+   }
+  }
+ },
+ "counts": {
+  "bil": {
+   "FVC (plain)": {
+    "n_devices": 7,
+    "interpretable": 4,
+    "X2": 0,
+    "norm_dependence": 0,
+    "devices_X2": []
+   },
+   "SD302 primary (plain, aux devices K/M/P)": {
+    "n_devices": 3,
+    "interpretable": 2,
+    "X2": 0,
+    "norm_dependence": 0,
+    "devices_X2": []
+   },
+   "SD302 primary without K (sensitivity)": {
+    "n_devices": 2,
+    "interpretable": 1,
+    "X2": 0,
+    "norm_dependence": 0,
+    "devices_X2": []
+   },
+   "SD302 secondary: rolled-equivalent C/E/G": {
+    "n_devices": 3,
+    "interpretable": 0,
+    "X2": 0,
+    "norm_dependence": 0,
+    "devices_X2": []
+   },
+   "SD302 secondary: segmented slap S": {
+    "n_devices": 1,
+    "interpretable": 1,
+    "X2": 1,
+    "norm_dependence": 0,
+    "devices_X2": [
+     "SD302_S"
+    ]
+   }
+  },
+  "tv": {
+   "FVC (plain)": {
+    "n_devices": 7,
+    "interpretable": 4,
+    "X2": 0,
+    "norm_dependence": 0,
+    "devices_X2": []
+   },
+   "SD302 primary (plain, aux devices K/M/P)": {
+    "n_devices": 3,
+    "interpretable": 2,
+    "X2": 1,
+    "norm_dependence": 1,
+    "devices_X2": [
+     "SD302_M"
+    ]
+   },
+   "SD302 primary without K (sensitivity)": {
+    "n_devices": 2,
+    "interpretable": 1,
+    "X2": 1,
+    "norm_dependence": 1,
+    "devices_X2": [
+     "SD302_M"
+    ]
+   },
+   "SD302 secondary: rolled-equivalent C/E/G": {
+    "n_devices": 3,
+    "interpretable": 0,
+    "X2": 0,
+    "norm_dependence": 0,
+    "devices_X2": []
+   },
+   "SD302 secondary: segmented slap S": {
+    "n_devices": 1,
+    "interpretable": 1,
+    "X2": 1,
+    "norm_dependence": 0,
+    "devices_X2": [
+     "SD302_S"
+    ]
+   }
+  }
+ },
+ "eligibility_range_B_degraded": [
+  0.005,
+  0.95
+ ],
+ "B": 10000,
+ "seed": 690069,
+ "outcome_dirs": [
+  "artifacts/results/E069/outcome_Rn_20261123_185045",
+  "artifacts/results/E069/outcome_Bs_20261123_185838",
+  "artifacts/results/E069/outcome_Dt_20261123_170334"
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "mode": "test",
+ "B": 2000,
+ "readings": {
+  "R-H1": "unchanged",
+  "R-H2": "unchanged",
+  "R-H4|leg": "unchanged",
+  "R-H3|pi2|leg": "still_indistinguishable",
+  "R-H3|pi2|leg|comparator": "still_indistinguishable",
+  "R-H3|pi3|leg": "still_indistinguishable",
+  "R-H3|pi3|leg|comparator": "still_indistinguishable",
+  "R-H4|fix": "unchanged",
+  "R-H3|pi2|fix": "still_indistinguishable",
+  "R-H3|pi2|fix|comparator": "still_indistinguishable",
+  "R-H3|pi3|fix": "still_indistinguishable",
+  "R-H3|pi3|fix|comparator": "still_indistinguishable",
+  "E060-H1": "unchanged"
+ },
+ "pilot_not_evidence": false
+}

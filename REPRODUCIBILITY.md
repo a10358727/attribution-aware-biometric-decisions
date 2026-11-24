@@ -1,6 +1,6 @@
 # What this repository can and cannot reproduce
 
-Verified on 2026-10-31 (v1.0.0) and 2026-11-02 (v1.1.0 release candidate) in a clean clone, with no access to
+Verified on 2026-10-31 (v1.0.0), 2026-11-02 (v1.1.0 release candidate) and 2026-11-24 (v1.1.0) in a clean clone, with no access to
 fingerprint images, per-image labels, per-image scores or model weights.
 
 ## Can be run and checked
@@ -16,6 +16,8 @@ fingerprint images, per-image labels, per-image scores or model weights.
 | E062 method end to end | `decision_level/examples/e062_synthetic_demo.py` | grouping rule, estimator and tables run on synthetic data (illustration, not a paper result) |
 | Pinned analysis sources (E060, E061, E062) | `python scripts/verify_frozen_sources.py` | byte-identical to the authorised / frozen versions |
 | Privacy gate | `python scripts/privacy_check.py` | 0 problems |
+| C1 macros and tables of §VIII, §X and Suppl. S7–S9 (E063–E071) | `decision_level/scripts/c1_check_macros.py` | all 7 files identical (comment lines excepted) to the manuscript's, from the released aggregates alone |
+| E063–E071 analysis code | `python -m pytest decision_level` | 78 synthetic checks pass; 7 end-to-end driver tests skipped (need unreleased resources) |
 | E060 / E061 analysis sources | `sha256sum` (table in `README.md`) | byte-identical to the versions pinned for the test reads |
 | Normalization policies, degradation bank, restoration operators, five deployment quantities, paired-contrast estimator | `examples/synthetic_demo.py` | run on synthetic data (illustration, not a paper result) |
 | Detector architectures | `inference/score_patch.py` | build and run on a synthetic 88 × 88 input with random weights (checked 2026-10-17 for the earlier detector-level release; file unchanged) |
@@ -34,3 +36,4 @@ fingerprint images, per-image labels, per-image scores or model weights.
 | Fig. 2 (score distributions) | needs per-image scores |
 | Face and public-fingerprint studies | third-party corpora; study code not included |
 | D3 detector | third-party code without a licence file |
+| Re-running E063–E071 | need per-image score dumps, the research matcher, images (E065/E068/E071), the external captures and their windows (E069/E070) and the third-party enhancer / NFIQ 2 tools (E068/E070) |

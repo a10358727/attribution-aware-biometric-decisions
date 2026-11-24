@@ -27,6 +27,11 @@ paths, values or identifiers from the excluded material.
 | E062 appearance-label table, its source file and any capture-to-class mapping | per-capture labels of identifiable fingerprint captures; the rule is released instead |
 | E062 metadata audit, finger-by-class feasibility and label-feature discrepancy audit outputs | contain small finger-by-class cells or private folder structure |
 | E062 governance records (PI decisions, provenance statement, scope-change record, authorisation, run lock, access log, preflight and formal runner) | internal authorisation and signature records |
+| E068–E070 evaluation drivers (enhancement build, detector/matcher scoring, external-window build, NFIQ 2 scoring), E066 code | tied to private data paths, vendored third-party code and per-image outputs; E066 (an instrument screen that ended without a test read) is not reported in the manuscript |
+| Vendored third-party code and weights used by E066/E068 (FpEnhancer, RINE, SPAI, OpenAI CLIP) and the NIST NFIQ 2 binary | not ours to redistribute; pinned by commit/hash in the experiment records and obtainable from their sources |
+| FVC2000–2004 and NIST SD302 images, window crops, per-capture NFIQ 2 scores, per-capture window manifests | third-party biometric data; SD302 terms forbid redistribution and require acknowledging the NIST Nail to Nail Fingerprint Challenge; only device-level aggregates are released |
+| E063–E071 pilot outputs, access logs, run provenance, gate records with local paths, authorisation files and score dumps | internal records or per-image outputs; the pinned script hashes are restated in `scripts/verify_frozen_sources.py` and `RELEASE_MANIFEST_C1.json` |
+| E068 per-image enhancement statistics | per-image records |
 | Credentials, tokens, keys, host names | never released (none found in this repository) |
 
 Kept privately and unchanged: every excluded file stays in the authors' research repository, including the

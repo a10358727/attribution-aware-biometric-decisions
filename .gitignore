@@ -13,3 +13,4 @@ figures/output/
 *.npz
 *.npy
 manifest*.csv
+decision_level/results/C1_macros_rebuilt/

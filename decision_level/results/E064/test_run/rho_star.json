@@ -1,0 +1,91 @@
+{
+ "rho_star_K3_fresh": {
+  "R-H1": "none",
+  "R-H2": "none",
+  "R-H3|pi2|leg": "none",
+  "R-H3|pi2|fix": "none"
+ },
+ "K_range_rho0": {
+  "R-H1|fresh": [
+   2,
+   3,
+   4,
+   5
+  ],
+  "R-H2|fresh": [
+   3,
+   4,
+   5
+  ],
+  "R-H4|leg|fresh": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "R-H4|fix|fresh": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "R-H1|same": [],
+  "R-H2|same": [],
+  "R-H4|leg|same": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "R-H4|fix|same": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "R-H1|worstgen": [
+   3,
+   4,
+   5
+  ],
+  "R-H2|worstgen": [
+   3,
+   4,
+   5
+  ],
+  "R-H4|leg|worstgen": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "R-H4|fix|worstgen": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ]
+ },
+ "baseline": [
+  0.0,
+  3,
+  "fresh"
+ ],
+ "baseline_signs": {
+  "R-H1": 1,
+  "fixed_pi1": 1,
+  "R-H2": -1,
+  "R-H4|leg": -1,
+  "R-H4|fix": -1,
+  "R-H3|pi2|leg": 0,
+  "R-H3|pi2|fix": 0,
+  "R-H3|pi3|leg": 0,
+  "R-H3|pi3|fix": 0
+ }
+}

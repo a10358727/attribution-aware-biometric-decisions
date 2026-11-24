@@ -1,0 +1,105 @@
+{
+ "gates": {
+  "G0": {
+   "max_abs_dev": 2.220446049250313e-16,
+   "n_values": 1440,
+   "pass": true
+  },
+  "G_E063": {
+   "max_abs_dev": 6.661338147750939e-16,
+   "n_values": 720,
+   "pass": true
+  },
+  "G_E061_DIR": {
+   "pass": true,
+   "outcome": "P-A"
+  },
+  "G_STRUCT_full": {
+   "pass": true,
+   "violations": {},
+   "replicate_level": false
+  },
+  "G_STRUCT_replicates": {
+   "pass": true,
+   "violations": {},
+   "replicate_level": true
+  }
+ },
+ "B": 10000,
+ "seed": 640064,
+ "rho_star": {
+  "R-H1": "none",
+  "R-H2": "none",
+  "R-H3|pi2|leg": "none",
+  "R-H3|pi2|fix": "none"
+ },
+ "K_range": {
+  "R-H1|fresh": [
+   2,
+   3,
+   4,
+   5
+  ],
+  "R-H2|fresh": [
+   3,
+   4,
+   5
+  ],
+  "R-H4|leg|fresh": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "R-H4|fix|fresh": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "R-H1|same": [],
+  "R-H2|same": [],
+  "R-H4|leg|same": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "R-H4|fix|same": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "R-H1|worstgen": [
+   3,
+   4,
+   5
+  ],
+  "R-H2|worstgen": [
+   3,
+   4,
+   5
+  ],
+  "R-H4|leg|worstgen": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "R-H4|fix|worstgen": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ]
+ },
+ "n_configurations": 75,
+ "n_readings": 675
+}

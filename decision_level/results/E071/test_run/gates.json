@@ -1,0 +1,90 @@
+{
+ "G_PRE": {
+  "real_pid_unique": true,
+  "p2_reals_equal_p1": true,
+  "real_files_exist": true,
+  "p1|syn_key_unique": true,
+  "p1|syn_files_exist": true,
+  "p1|pool_reals_equal_manifest": true,
+  "p1|pool_syn_equal_manifest": true,
+  "p1|n_syn": 4800,
+  "p2|syn_key_unique": true,
+  "p2|syn_files_exist": true,
+  "p2|pool_reals_equal_manifest": true,
+  "p2|pool_syn_equal_manifest": true,
+  "p2|n_syn": 4800,
+  "pass": true
+ },
+ "G_E|s0": {
+  "pass": true,
+  "eer": 0.1237,
+  "e018_eer": 0.1237,
+  "n_gen": 4860,
+  "e018_n_gen": 4860
+ },
+ "G_E|s1": {
+  "pass": true,
+  "eer": 0.1185,
+  "e018_eer": 0.1185,
+  "n_gen": 4860,
+  "e018_n_gen": 4860
+ },
+ "G_E|s2": {
+  "pass": true,
+  "eer": 0.1181,
+  "e018_eer": 0.1181,
+  "n_gen": 4860,
+  "e018_n_gen": 4860
+ },
+ "G_X": {
+  "pass": true,
+  "values": {
+   "0.01|degraded": {
+    "recomputed": 0.8760024676125848,
+    "e065": 0.8760024676125848,
+    "abs_dev": 0.0
+   },
+   "0.01|restored_bilateral": {
+    "recomputed": 0.98128727123175,
+    "e065": 0.98128727123175,
+    "abs_dev": 0.0
+   },
+   "0.01|restored_tv": {
+    "recomputed": 0.9930084310096648,
+    "e065": 0.9930084310096648,
+    "abs_dev": 0.0
+   },
+   "0.001|degraded": {
+    "recomputed": 0.9648365206662554,
+    "e065": 0.9648365206662554,
+    "abs_dev": 0.0
+   },
+   "0.001|restored_bilateral": {
+    "recomputed": 0.9969154842689697,
+    "e065": 0.9969154842689697,
+    "abs_dev": 0.0
+   },
+   "0.001|restored_tv": {
+    "recomputed": 0.9995887312358627,
+    "e065": 0.9995887312358627,
+    "abs_dev": 0.0
+   }
+  }
+ },
+ "G_N": {
+  "pass": true,
+  "captures": 1621,
+  "credentials": 277
+ },
+ "G_C": {
+  "pass": true,
+  "recomputed": {
+   "leg": 0.0011676569144459237,
+   "fix": 0.0013946351815659118
+  },
+  "e065": {
+   "leg": 0.0011676569144459237,
+   "fix": 0.0013946351815659118
+  }
+ }
+}

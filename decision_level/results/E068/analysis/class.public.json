@@ -1,0 +1,190 @@
+{
+ "_source": {
+  "file": "artifacts/results/E068/score_run_20261123_203819/analysis_20261123_213633/class.json",
+  "sha256": "6aacd43988d9f151c3c1b58849c938e582f45426746db9e74293b2aab09c9e1a",
+  "note": "standard-JSON copy; launch/provenance/authorisation keys removed"
+ },
+ "run": "artifacts/results/E068/score_run_20261123_203819",
+ "effect": {
+  "n_images": 23056,
+  "median_mae": 67.52292097107437,
+  "median_rmse": 81.83711113098056,
+  "median_psnr": 9.871797803105828,
+  "median_rho": 1.0039370078740157,
+  "median_abs_log_rho": 0.003929278139889557,
+  "frac_rho_changed": 0.5232911172796669,
+  "median_dyn_change": 1.0,
+  "median_frac_extreme": 0.48140495867768596,
+  "frac_constant_output": 0.0,
+  "median_corr_in_out": 0.7301127758215735,
+  "frac_negative_corr": 8.674531575294934e-05,
+  "identity_like": false
+ },
+ "dose_rho_reals": {
+  "val": {
+   "n": 3550,
+   "median_rho": 1.0,
+   "q25_q75_rho": [
+    1.0,
+    1.0365853658536586
+   ]
+  },
+  "test": {
+   "n": 3306,
+   "median_rho": 1.0,
+   "q25_q75_rho": [
+    1.0,
+    1.02
+   ]
+  },
+  "all_reals_median_rho": 1.0
+ },
+ "gate0": {
+  "checked": 200,
+  "max_abs_diff": 0.006752133369445801,
+  "pass": true,
+  "n_failures": 0,
+  "n_a1": 10
+ },
+ "R1_subject": {
+  "outcome": "B",
+  "n_cells": 8,
+  "n_S": 8,
+  "n_I": 2,
+  "n_A": 7,
+  "S_cells": [
+   "D3|P1",
+   "D3|P2",
+   "ResNet-18 (ImageNet)|P1",
+   "ResNet-18 (ImageNet)|P2",
+   "ResNet-50 (ImageNet)|P1",
+   "ResNet-50 (ImageNet)|P2",
+   "EfficientNet-B0 (ImageNet)|P1",
+   "EfficientNet-B0 (ImageNet)|P2"
+  ],
+  "I_cells": [
+   "EfficientNet-B0 (ImageNet)|P1",
+   "EfficientNet-B0 (ImageNet)|P2"
+  ],
+  "A_cells": [
+   "D3|P2",
+   "ResNet-18 (ImageNet)|P1",
+   "ResNet-18 (ImageNet)|P2",
+   "ResNet-50 (ImageNet)|P1",
+   "ResNet-50 (ImageNet)|P2",
+   "EfficientNet-B0 (ImageNet)|P1",
+   "EfficientNet-B0 (ImageNet)|P2"
+  ],
+  "identity_like": false,
+  "rule": "S: dT_lock or dB_lock interval excl. 0 in >=1 arm; I: DDT or DDB interval excl. 0; A: dAUC excl. 0 in >=1 arm. D: identity-like or (nS<=1 and nA<=1); A: nS>=6 and nI>=6; B: nS>=6; C: nA>=6; else MIXED (preregistered, E049)",
+  "S_fix": {
+   "S_fix": 8,
+   "of": 8,
+   "cells": [
+    "D3|P1",
+    "D3|P2",
+    "ResNet-18 (ImageNet)|P1",
+    "ResNet-18 (ImageNet)|P2",
+    "ResNet-50 (ImageNet)|P1",
+    "ResNet-50 (ImageNet)|P2",
+    "EfficientNet-B0 (ImageNet)|P1",
+    "EfficientNet-B0 (ImageNet)|P2"
+   ],
+   "reading": "the enhancer shifts locked behaviour even without per-image normalization",
+   "rule": "S_fix = #primary cells whose N_fixed dT_lock or dB_lock 95% interval excludes 0; >=6 shift, <=1 none, else mixed"
+  }
+ },
+ "R1_finger": {
+  "outcome": "B",
+  "n_cells": 8,
+  "n_S": 8,
+  "n_I": 2,
+  "n_A": 7,
+  "S_cells": [
+   "D3|P1",
+   "D3|P2",
+   "ResNet-18 (ImageNet)|P1",
+   "ResNet-18 (ImageNet)|P2",
+   "ResNet-50 (ImageNet)|P1",
+   "ResNet-50 (ImageNet)|P2",
+   "EfficientNet-B0 (ImageNet)|P1",
+   "EfficientNet-B0 (ImageNet)|P2"
+  ],
+  "I_cells": [
+   "EfficientNet-B0 (ImageNet)|P1",
+   "EfficientNet-B0 (ImageNet)|P2"
+  ],
+  "A_cells": [
+   "D3|P2",
+   "ResNet-18 (ImageNet)|P1",
+   "ResNet-18 (ImageNet)|P2",
+   "ResNet-50 (ImageNet)|P1",
+   "ResNet-50 (ImageNet)|P2",
+   "EfficientNet-B0 (ImageNet)|P1",
+   "EfficientNet-B0 (ImageNet)|P2"
+  ],
+  "identity_like": false,
+  "rule": "S: dT_lock or dB_lock interval excl. 0 in >=1 arm; I: DDT or DDB interval excl. 0; A: dAUC excl. 0 in >=1 arm. D: identity-like or (nS<=1 and nA<=1); A: nS>=6 and nI>=6; B: nS>=6; C: nA>=6; else MIXED (preregistered, E049)",
+  "S_fix": {
+   "S_fix": 8,
+   "of": 8,
+   "cells": [
+    "D3|P1",
+    "D3|P2",
+    "ResNet-18 (ImageNet)|P1",
+    "ResNet-18 (ImageNet)|P2",
+    "ResNet-50 (ImageNet)|P1",
+    "ResNet-50 (ImageNet)|P2",
+    "EfficientNet-B0 (ImageNet)|P1",
+    "EfficientNet-B0 (ImageNet)|P2"
+   ],
+   "reading": "the enhancer shifts locked behaviour even without per-image normalization",
+   "rule": "S_fix = #primary cells whose N_fixed dT_lock or dB_lock 95% interval excludes 0; >=6 shift, <=1 none, else mixed"
+  }
+ },
+ "R2": {
+  "n_cells": 12,
+  "resolved_pos": 0,
+  "resolved_neg": 12
+ },
+ "R3": {
+  "0.01": {
+   "FNMR_degraded": 0.6129511530807031,
+   "FNMR_fpenh": 0.9950420897675679,
+   "dFNMR": 0.3820909366868648,
+   "ci95": [
+    0.33228180761778436,
+    0.43338963004165254
+   ],
+   "resolved": true,
+   "e071_dFNMR_bilateral": 0.14819937499610547,
+   "e071_dFNMR_tv": 0.23869208966371214,
+   "captures": 1621,
+   "subjects": 34,
+   "matcher_seeds": [
+    0,
+    1,
+    2
+   ]
+  },
+  "0.001": {
+   "FNMR_degraded": 0.7825214002188096,
+   "FNMR_fpenh": 0.9993374003244454,
+   "dFNMR": 0.21681600010563584,
+   "ci95": [
+    0.17813708156035343,
+    0.25745053828277703
+   ],
+   "resolved": true,
+   "e071_dFNMR_bilateral": 0.12436548959528582,
+   "e071_dFNMR_tv": 0.17151983837671692,
+   "captures": 1621,
+   "subjects": 34,
+   "matcher_seeds": [
+    0,
+    1,
+    2
+   ]
+  }
+ }
+}
