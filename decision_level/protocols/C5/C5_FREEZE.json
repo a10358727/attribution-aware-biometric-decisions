@@ -1,0 +1,18 @@
+{
+ "freeze": "C5 Phase 1 protocol and analysis code",
+ "time": "2026-11-27T00:56:37+0800",
+ "git_head": "a56033da1f124b3d3fa00b9b7b6de61052f0c30f",
+ "note": "Frozen by content hash (not by commit: commits await author approval). Recorded before any C5 test-score read. G-S tests passed (13/13); G-V pilots (validation stand-in) ran for E072 and E073 and are not evidence.",
+ "sha256": {
+  "docs/C5/C5_Research_Protocol.md": "b68c0c0fa2824a18e725619c303d5aa2879bd23680f08b6de40586dbd76057ac",
+  "docs/C5/C5_Research_Audit.md": "f2894417918a66651e128a35137831376a5810b711b7fdb8356363699350192a",
+  "experiments/c5_lib/stats.py": "561c72b2998b1d09c3d801b787df19b752c33108596c8d854e5a6cde3ee6213c",
+  "experiments/c5_lib/tests/test_c5_stats.py": "76b19e0dbb4302d6f5fc413542be9340dc11ad9680d6e5da71e996b73347d5c1",
+  "experiments/E072_burden_validity/run_e072.py": "63877ae7ddc64782cb674bc5f80878e9260dab93d54c0a5c3ab6326d67847cdb",
+  "experiments/E073_distribution_policy/run_e073.py": "3da37980e317fdb184a1062b44e3f1b33f8083e1ba36b5a6d52693e52ff509ee",
+  "experiments/tcss_lib/core.py": "ba15e60ea66ef1d7c4d1abfd71d1473940b0415f424fe776fa3409d7acf04158",
+  "experiments/tcss_lib/pool.py": "6ad1c002077f34a64022d4e2d34e58e6a1585d685f62722d7eb6b78eb21b1af6",
+  "experiments/E063_session_robustness/session_models.py": "0a64991988ebbe8b27b79e792a3da12e1f32b129111f0ecf2f6793504c5b537c",
+  "artifacts/results/E061/validation_fit.json": "c3d01b7d84d8858bfd091e9bcdd8d8db4b24597fc4ccf8adeaf3554e9dae22e4"
+ }
+}

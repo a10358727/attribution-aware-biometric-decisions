@@ -1,9 +1,8 @@
 # Attribution-aware evaluation of image restoration for biometric decisions — code and aggregate results
 
-Code and aggregate results accompanying the manuscript *Attribution-Aware Evaluation of Image Restoration in
-Biometric Access Decisions: Credential Burden and Policy Trade-Offs* (M.-H. Hsu, Y.-H. Shi; prepared for submission
-to IEEE Transactions on Computational Social Systems). Not yet published. Release **v1.1.0** covers every analysis the
-manuscript reports (detector level, E060–E065, E067–E071); see the experiment-to-code map below.
+Code and aggregate results accompanying the manuscript *Rejection Burdens in AI-Assisted Fingerprint Screening: A Human-Centered Evaluation of Image Restoration and Access Policies* (M.-H. Hsu, Y.-H. Shi; prepared for submission
+to IEEE Transactions on Computational Social Systems). Not yet published. Release **v1.2.0** covers every analysis the
+manuscript reports (detector level, E060–E065, E067–E073); see the experiment-to-code map below.
 
 MIT licence (`LICENSE`) for the authors' code, documentation and aggregate results; dependencies keep their
 own licences and are not redistributed. The repository contains **no fingerprint images, no per-image scores,
@@ -51,6 +50,20 @@ acceptance of untargeted synthetic images is a zero-effort rate, not attack succ
 attack was observed. E063–E071 are post hoc analyses on the same test pool (E069/E070 on public external captures), not
 independent prospective validations.
 
+### Experiment-to-code map of the v1.2.0 additions (post hoc, exploratory analyses reported in §VI, §VII and Suppl. S10)
+
+| Experiment | Manuscript | Code (`decision_level/experiments/`) | Aggregates (`decision_level/results/`) | Runs here? |
+|---|---|---|---|---|
+| E072 burden validity and individual burden: heterogeneity nulls, finite-sample estimators (plug-in, factorial-moment, empirical Bayes), bias simulation, GLMM variance components, concentration and upper-tail measures | §VI, Suppl. S10 | `c5_lib/stats.py`, `E072_burden_validity/run_e072.py` | `E072/` (cell- and seed-level) | library and 13 synthetic tests: yes; driver: needs score dumps |
+| E073 distribution-aware policy evaluation: subject weighting, tail weights λ, no-worsening rule δ, M1 sensitivity, cost grid, secondary-check failure, same-image attacker, three-criterion Pareto set | §VII, Suppl. S10 | `E073_distribution_policy/run_e073.py` (uses `c5_lib`, `tcss_lib`, `E063_session_robustness/session_models.py`) | `E073/` (cell-level) | driver: needs score dumps |
+
+The frozen analysis plan, the experiment registry (with its additive errata) and the freeze record are in
+`decision_level/protocols/C5/`. The macros and tables of §VI–§VII and Suppl. S10 are rebuilt from the released
+aggregates alone by `python decision_level/scripts/c5_check_macros.py`. The per-subject burden vectors behind Fig. 2
+are **not** released (per-subject values), so Fig. 2 cannot be redrawn from this repository; the numbers it
+summarizes are in `E072/cells_boot.csv`. E072 and E073 are post hoc, exploratory analyses of the same test pool,
+each frozen by content hash before its single authorised test read.
+
 ## Repository structure
 
 | Path | Contents |
@@ -75,12 +88,15 @@ independent prospective validations.
 | `decision_level/scripts/e062_tables_from_aggregates.py`, `decision_level/examples/e062_synthetic_demo.py` | rebuild of Supplementary Tables S14–S18 from the released aggregate; synthetic end-to-end run |
 | `decision_level/results/E062/` | E062 aggregate output (standard-JSON copy), the tables of the run, synthetic calibration summaries |
 | `decision_level/results/E060_post_freeze_annotation/` | M1 exclusion counts reconstructed after the freeze from credential composition |
+| `decision_level/experiments/c5_lib/`, `E072_burden_validity/`, `E073_distribution_policy/` | v1.2.0: C5 analysis library (with 13 synthetic tests) and the E072 / E073 drivers |
+| `decision_level/results/E072/`, `E073/`, `C5_manuscript_macros/` | v1.2.0: aggregate outputs and the manuscript's C5 macro and table files (expected outputs of `c5_check_macros.py`) |
+| `decision_level/protocols/C5/` | v1.2.0: frozen C5 protocol, registry and freeze record |
 | `scripts/privacy_check.py`, `scripts/verify_frozen_sources.py`, `.github/workflows/ci.yml` | privacy gate, pinned-source verification, CI on synthetic data and aggregates |
 | `PUBLIC_RELEASE_SCOPE.md`, `PUBLIC_RELEASE_EXCLUSIONS.md`, `REPRODUCIBILITY.md`, `SHA256SUMS` | what is released and from where; what is excluded and why; what can be reproduced; checksums |
 
 The analysis sources below are byte-identical to the versions pinned by SHA-256 in the test-read authorisations
 (E062's renderer and calibration code: in its freeze record); `python scripts/verify_frozen_sources.py` checks them,
-together with the 18 v1.1.0 analysis sources (17 byte-identical; the exception is `E063_session_robustness/run_e063.py`, whose only change is
+together with the 3 v1.2.0 analysis sources (byte-identical; listed in `RELEASE_MANIFEST_C5.json`) and the 18 v1.1.0 analysis sources (17 byte-identical; the exception is `E063_session_robustness/run_e063.py`, whose only change is
 a redacted local path; both hashes are listed there and in `RELEASE_MANIFEST_C1.json`):
 
 | File | SHA-256 |
@@ -100,8 +116,9 @@ Python 3.12 (tested); `pip install -r requirements.txt`. No GPU is needed.
 |---|---|
 | `python scripts/table1_from_aggregates.py` | per-arm detector-level quantities and paired contrasts of Table I |
 | `python decision_level/scripts/headline_from_aggregates.py` | E060 outcome U-A and E061 outcome P-A with their headline medians and intervals |
-| `python -m pytest decision_level` | 85 synthetic checks: 78 run here, 7 end-to-end driver tests are skipped with the reason (they need unreleased resources; `decision_level/conftest.py`) |
+| `python -m pytest decision_level` | 98 synthetic checks: 91 run here, 7 end-to-end driver tests are skipped with the reason (they need unreleased resources; `decision_level/conftest.py`) |
 | `python decision_level/scripts/c1_check_macros.py` | rebuilds the §VIII / §X / Suppl. S7–S9 macros and tables from the released aggregates and checks them against the manuscript's |
+| `python decision_level/scripts/c5_check_macros.py` | rebuilds the §VI–§VII / Suppl. S10 macros and tables (E072, E073) from the released aggregates and checks them against the manuscript's |
 | `python decision_level/scripts/e062_tables_from_aggregates.py` | Supplementary Tables S14–S18 from the released E062 aggregate, checked against the run's tables |
 | `python decision_level/examples/e062_synthetic_demo.py` | E062 grouping rule, estimator and tables on synthetic data (illustration only) |
 | `python scripts/verify_frozen_sources.py` | SHA-256 of the pinned analysis sources |

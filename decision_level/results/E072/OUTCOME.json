@@ -1,0 +1,34 @@
+{
+ "pilot_not_evidence": false,
+ "A1_primary_N2_restored": {
+  "leg": {
+   "n_cells": 12,
+   "n_exceed": 12,
+   "class": "persists",
+   "median_ratio": 1.8053674268736755
+  },
+  "fix": {
+   "n_cells": 12,
+   "n_exceed": 12,
+   "class": "persists",
+   "median_ratio": 1.5296414374438343
+  }
+ },
+ "A2_P1_E3_survives": true,
+ "A2_P2_E4_survives": true,
+ "B_P1_CVaR80_increase_leg": true,
+ "B_P2_CVaR80_reduced_fix": true,
+ "B_P3_worse_share_leg": {
+  "median": 0.9014705882352941,
+  "ci95": [
+   0.8367647058823529,
+   0.9602941176470587
+  ],
+  "ci_decision": [
+   0.8186151960784315,
+   0.9691176470588234
+  ],
+  "decision_level": 0.9833333333333333
+ },
+ "CVaR90_unstable": false
+}

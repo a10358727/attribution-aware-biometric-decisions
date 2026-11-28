@@ -1,6 +1,6 @@
 # What this repository can and cannot reproduce
 
-Verified on 2026-10-31 (v1.0.0), 2026-11-02 (v1.1.0 release candidate) and 2026-11-24 (v1.1.0) in a clean clone, with no access to
+Verified on 2026-10-31 (v1.0.0), 2026-11-02 (v1.1.0 release candidate) 2026-11-24 (v1.1.0) and 2026-11-28 (v1.2.0) in a clean clone, with no access to
 fingerprint images, per-image labels, per-image scores or model weights.
 
 ## Can be run and checked
@@ -17,7 +17,8 @@ fingerprint images, per-image labels, per-image scores or model weights.
 | Pinned analysis sources (E060, E061, E062) | `python scripts/verify_frozen_sources.py` | byte-identical to the authorised / frozen versions |
 | Privacy gate | `python scripts/privacy_check.py` | 0 problems |
 | C1 macros and tables of §VIII, §X and Suppl. S7–S9 (E063–E071) | `decision_level/scripts/c1_check_macros.py` | all 7 files identical (comment lines excepted) to the manuscript's, from the released aggregates alone |
-| E063–E071 analysis code | `python -m pytest decision_level` | 78 synthetic checks pass; 7 end-to-end driver tests skipped (need unreleased resources) |
+| E063–E073 analysis code | `python -m pytest decision_level` | 91 synthetic checks pass (78 + 13 for `c5_lib`); 7 end-to-end driver tests skipped (need unreleased resources) |
+| C5 macros and tables of §VI–§VII and Suppl. S10 (E072, E073) | `decision_level/scripts/c5_check_macros.py` | all 10 files identical (comment lines excepted) to the manuscript's, from the released aggregates alone |
 | E060 / E061 analysis sources | `sha256sum` (table in `README.md`) | byte-identical to the versions pinned for the test reads |
 | Normalization policies, degradation bank, restoration operators, five deployment quantities, paired-contrast estimator | `examples/synthetic_demo.py` | run on synthetic data (illustration, not a paper result) |
 | Detector architectures | `inference/score_patch.py` | build and run on a synthetic 88 × 88 input with random weights (checked 2026-10-17 for the earlier detector-level release; file unchanged) |
@@ -27,6 +28,7 @@ fingerprint images, per-image labels, per-image scores or model weights.
 
 | Item | Why |
 |---|---|
+| Fig. 2 (subject-level burden curves) | built from per-subject burden vectors, which are not released |
 | Training any detector; any per-image score | fingerprint corpus and weights not released |
 | Locked thresholds, Δτ and its ceiling counts, bootstrap intervals and paired contrasts from scores | need per-image scores; only frozen aggregates are included |
 | Re-running E060 / E061 | needs per-image score dumps and the detector-level paired-contrast module of the research code |

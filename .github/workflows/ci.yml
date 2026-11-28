@@ -14,6 +14,7 @@ jobs:
       - run: python scripts/verify_frozen_sources.py
       - run: python -m pytest -q decision_level
       - run: python decision_level/scripts/c1_check_macros.py
+      - run: python decision_level/scripts/c5_check_macros.py
       - run: python scripts/table1_from_aggregates.py
       - run: python decision_level/scripts/headline_from_aggregates.py
       - run: python decision_level/scripts/e062_tables_from_aggregates.py

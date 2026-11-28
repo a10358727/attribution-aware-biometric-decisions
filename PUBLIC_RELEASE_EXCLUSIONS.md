@@ -32,6 +32,8 @@ paths, values or identifiers from the excluded material.
 | FVC2000–2004 and NIST SD302 images, window crops, per-capture NFIQ 2 scores, per-capture window manifests | third-party biometric data; SD302 terms forbid redistribution and require acknowledging the NIST Nail to Nail Fingerprint Challenge; only device-level aggregates are released |
 | E063–E071 pilot outputs, access logs, run provenance, gate records with local paths, authorisation files and score dumps | internal records or per-image outputs; the pinned script hashes are restated in `scripts/verify_frozen_sources.py` and `RELEASE_MANIFEST_C1.json` |
 | E068 per-image enhancement statistics | per-image records |
+| E072 per-subject burden vectors (the input of Fig. 2) | per-subject values indexed by subject position |
+| E072/E073 pilot outputs, access logs, run provenance and test-read authorisation files | internal records with local paths and hashes of non-released score dumps; the pinned script hashes are restated in `scripts/verify_frozen_sources.py` and `RELEASE_MANIFEST_C5.json` |
 | Credentials, tokens, keys, host names | never released (none found in this repository) |
 
 Kept privately and unchanged: every excluded file stays in the authors' research repository, including the

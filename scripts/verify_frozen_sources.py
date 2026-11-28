@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Verify that the released analysis sources are byte-identical to the versions used for the authorised test reads.
 
-Pinned = the SHA-256 recorded in the test-read authorisation of the analysis (E060-E071) or, for E062's renderer and
+Pinned = the SHA-256 recorded in the test-read authorisation of the analysis (E060-E073) or, for E062's renderer and
 calibration code and E063 Part A, in the freeze record or run output. REDACTED lists the public copies that differ from
 the pinned bytes only by a declared local-path redaction. Public adapters and tests are not listed: they differ
 from the research versions by design (README, PUBLIC_RELEASE_SCOPE.md).
@@ -41,6 +41,10 @@ PINNED = {
     f"{DL}/E069_cross_sensor_bonafide_transfer/e069_common.py": ("cf5cdd73302f6d5b53939bd13aa412f2856ae6f6113785ab34d65d3c2fca4c40", "E068 test-read authorisation (L3b)"),
     f"{DL}/E069_cross_sensor_bonafide_transfer/e069_analyze.py": ("2c46e84eadfd479adce11418fb072b87ec3be7dc342e9ff1639a533492193363", "E069 outcome-read authorisation"),
     f"{DL}/E070_quality_conditioned_external/e070_contrast.py": ("48fa899dc647de1346ee1d2117a0b060f60af75464223ced041a139b19a976dd", "E070 authorisation"),
+    # --- v1.2.0 additions (C5: E072, E073): byte-identical to the versions pinned by their test-read authorisations
+    f"{DL}/c5_lib/stats.py": ("561c72b2998b1d09c3d801b787df19b752c33108596c8d854e5a6cde3ee6213c", "E072/E073 test-read authorisations"),
+    f"{DL}/E072_burden_validity/run_e072.py": ("63877ae7ddc64782cb674bc5f80878e9260dab93d54c0a5c3ab6326d67847cdb", "E072 test-read authorisation"),
+    f"{DL}/E073_distribution_policy/run_e073.py": ("3da37980e317fdb184a1062b44e3f1b33f8083e1ba36b5a6d52693e52ff509ee", "E073 test-read authorisation"),
 }
 # Public copies whose ONLY difference from the pinned research bytes is a declared local-path redaction
 # (research SHA-256 pinned by the authorisation; public SHA-256 of the redacted copy; see RELEASE_MANIFEST_C1.json).

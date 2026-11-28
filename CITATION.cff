@@ -4,8 +4,8 @@ title: "attribution-aware-biometric-decisions: code and aggregate results for at
 abstract: "Detector-level evaluation methods, training configurations and aggregate results, and the analysis code and aggregate results of the credential-level burden (E060), deployment-policy simulation (E061) and exploratory appearance-class (E062) analyses, and the post hoc session-model, matcher, refit, enhancer and external-capture analyses (E063-E065, E067-E071), accompanying the manuscript 'Attribution-Aware Evaluation of Image Restoration in Biometric Access Decisions: Credential Burden and Policy Trade-Offs' (prepared for submission to IEEE Transactions on Computational Social Systems; not yet published)."
 type: software
 license: MIT
-version: "1.1.0"
-date-released: "2026-11-24"
+version: "1.2.0"
+date-released: "2026-11-28"
 authors:
   - family-names: Hsu
     given-names: Mao-Hsiu

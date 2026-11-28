@@ -1,4 +1,4 @@
-# Public release scope (v1.1.0, 2026-11-24; the 2026-11-02 release candidate plus the C1 additions in §2b)
+# Public release scope (v1.2.0, 2026-11-28; v1.1.0 plus the C5 additions in §2c)
 
 Rule: built from an explicit allowlist; nothing is mirrored from the private research repository and no private Git
 history is included. Every file below was copied by name, checked by `scripts/privacy_check.py` and, where pinned,
@@ -47,6 +47,17 @@ and public SHA-256. The only permitted change is a declared local-path redaction
 | `conftest.py` | skips 7 end-to-end driver tests that need unreleased resources | new public file |
 | `results/E063/`, `E064/`, `E065/`, `E067/`, `E068/`, `E069/`, `E070/`, `E071/` | final aggregate outputs of the runs the manuscript reports (cell-, device- or tertile-level; no per-image, per-capture or per-subject row) | byte copies; `E068/analysis/class.public.json` is a standard-JSON copy with the launch/provenance keys removed |
 | `scripts/c1_mk_sens.py`, `scripts/c1_mk_ext.py`, `scripts/c1_check_macros.py`, `results/C1_manuscript_macros/` | the manuscript's macro generators with only their input/output paths remapped, and the manuscript's macro/table files as expected outputs | public tooling; the check reproduces all 7 files from the released aggregates |
+
+## 2c. Added for the C5 analyses (v1.2.0, 2026-11-28)
+
+| Path (under `decision_level/`) | Content | Status |
+|---|---|---|
+| `experiments/c5_lib/stats.py` | finite-sample estimators, heterogeneity statistics, concentration and tail measures | byte-identical to the version pinned by the E072/E073 test-read authorisations |
+| `experiments/c5_lib/tests/test_c5_stats.py` | 13 synthetic checks | byte-identical to the research file (pinned in the C5 freeze record) |
+| `experiments/E072_burden_validity/run_e072.py`, `experiments/E073_distribution_policy/run_e073.py` | analysis drivers | byte-identical to the pinned versions; inspection only (need score dumps) |
+| `protocols/C5/` | frozen protocol, registry with additive errata, freeze record | byte copies |
+| `results/E072/`, `results/E073/` | final aggregate outputs (cell-, seed- or cost-grid-level; no per-image, per-capture or per-subject row) | byte copies |
+| `scripts/c5_mk_macros.py`, `scripts/c5_check_macros.py`, `results/C5_manuscript_macros/` | the manuscript's C5 macro generator with only its input/output paths remapped, and the manuscript's macro/table files as expected outputs | public tooling; the check reproduces all 10 files |
 
 ## 3. Needs private dependencies — released for inspection only, or not at all
 

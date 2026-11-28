@@ -14,3 +14,4 @@ figures/output/
 *.npy
 manifest*.csv
 decision_level/results/C1_macros_rebuilt/
+decision_level/results/C5_macros_rebuilt/
